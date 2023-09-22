@@ -1,0 +1,2831 @@
+
+<html>
+<!-- OWA_CACHE will timeout in 10 minutes. -->
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<link rel="stylesheet" type="text/css" title="Default text size" href="https://www.hawaii.edu/myuh/availcss/availLEE.css">
+<title>Leeward Community College - Fall 2023 - ICS</title>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+<script type="text/javascript">
+function UpdateTableHeaders() {
+$("div.divListOfClasses").each(function() {
+var originalHeaderRow = $(".tableFloatingHeaderOriginal", this);
+var floatingHeaderRow = $(".tableFloatingHeader", this);
+var offset = $(this).offset();
+var scrollTop = $(window).scrollTop();
+if ((scrollTop > offset.top) && (scrollTop < offset.top + $(this).height())) {
+floatingHeaderRow.css("visibility", "visible");
+floatingHeaderRow.css("top", Math.min(scrollTop - offset.top, $(this).height() - floatingHeaderRow.height()) + "px");
+$("th", floatingHeaderRow).each(function(index) {
+var cellWidth = $("th", originalHeaderRow).eq(index).css('width');
+$(this).css('width', cellWidth);
+});
+floatingHeaderRow.css("width", $(this).css("width"));
+}
+else {
+floatingHeaderRow.css("visibility", "hidden");
+floatingHeaderRow.css("top", "0px");
+}
+});
+}
+$(document).ready(function() {
+$("table.listOfClasses").each(function() {
+$(this).wrap("<div class=\"divListOfClasses\" style=\"position:relative\"></div>");
+var originalHeaderRow = $("tr:first", this)
+originalHeaderRow.before(originalHeaderRow.clone());
+var clonedHeaderRow = $("tr:first", this)
+clonedHeaderRow.addClass("tableFloatingHeader");
+clonedHeaderRow.css("position", "absolute");
+clonedHeaderRow.css("top", "0px");
+clonedHeaderRow.css("left", $(this).css("margin-left"));
+clonedHeaderRow.css("visibility", "hidden");
+originalHeaderRow.addClass("tableFloatingHeaderOriginal");
+});
+UpdateTableHeaders();
+$(window).scroll(UpdateTableHeaders);
+$(window).resize(UpdateTableHeaders);
+});
+</script>
+</head>
+<!-- uh_avail_style_rec is not null -->
+<!-- uh_avail_style_rec.term_code = 201010 -->
+<!-- uh_avail_style_rec.style = B -->
+<body>
+<div class="header">
+<p class="system">
+<a href="./avail.classes" class=system_link>University of Hawaii</a>
+<a href="https://hawaii-leeward.verbacompare.com/" target="_blank" class=book_link,
+                             style="color: white; text-decoration: none; float: right">Textbooks/Course Materials</a>
+</p>
+<p class="institution">
+<a href="./avail.classes?i=LEE" class=title_link>Leeward Community College</a>
+&#149;
+Fall 2023 Class Availability
+</p>
+<p class="transfer-info">
+<a href="http://www.hawaii.edu/admissions/transfers.html">(UH Transfer Information)</a>
+</p>
+</div>
+<div class="header2">
+<p class="backlink">
+<a href="./avail.classes?i=LEE&t=202410">Back to list of subjects</a>
+<b><big>&nbsp;&nbsp;Click on the CRN for additional class information.</big></b>
+</p>
+</div> <!-- header2 -->
+<h1>Information& Computer Sciences (ICS)</h1>
+<!-- f_listcrse called for i: 'LEE t: '202410' -->
+<!-- uh_avail_inst_rec.inst_desc: 'Leeward Community College' -->
+<!-- SCRIPT_NAME: /uhdad -->
+<!-- PATH_INFO: /avail.classes -->
+<!-- VPDI DUMP -->
+<!-- session_user: WWW_USER -->
+<!-- sessionid: 237251891 -->
+<!-- type_context: U2 -->
+<!-- code_context: ALLQ -->
+<!-- lmod_context:  -->
+<!-- inst_code: HIL -->
+<!-- multi_context: OVERRIDE -->
+<!-- proc_context: LEE -->
+<!-- hierarchy_context: RESTRICT -->
+<!-- primary_context:  -->
+<!-- secondary_context:  -->
+<!-- current_inst_code: MAU -->
+<!-- sect_rec: i 'LEE', term: '202410', ssbsect_crn: '54049', ssrmeet: '54049' -->
+<!-- pt. a -->
+<!-- pt. b -->
+<!-- pt. c -->
+<!-- pt. d -->
+<!-- pt. e -->
+<table class="listOfClasses" border="0" cellpadding="2" cellspacing="0" width="100%">
+<!-- pt. f -->
+<!-- uh_avail_inst_rec.show_enrl = Y -->
+<thead>
+<tr style="background:#D4D4D4;">
+    <th><abbr title="Requirements & Designation Codes (see legend below)">GenEd/Focus/<br>Special Des.</abbr></th>
+    <th>CRN</th>
+    <th>Course</th>
+    <th>Section</th>
+    <th>Title</th>
+    <th>Credits</th>
+    <th>Instructor</th>
+    <th><abbr title="Currently Enrolled">Curr.<br />Enrolled</abbr></th>
+    <th><abbr title="Number of seats still available">Seats<br />avail.</abbr></th>
+    <th>Days</th>
+    <th>Time</th>
+    <th>Room</th>
+    <th>Dates</th>
+</tr>
+</thead>
+<!-- pt. g -->
+<tr class="odd">
+<td CLASS="default">TXT0</td>
+<!-- pt. h -->
+<td CLASS="default"><a href="./avail.class?i=LEE&t=202410&c=54049">54049</a></td>
+<td nowrap="nowrap" CLASS="default">ICS 100</td>
+<td CLASS="default">0</td>
+<!-- ssrmeet_array_length = 0 -->
+<!-- ssrmeet_array_length = 1 -->
+<!-- comment_text=Textbook Cost: $0<br><br>Students must use Microsoft Applications designed to run on the Windows or Mac Operating System which is available for a free download.  The online version of Microsoft Applications is not sufficient for this course.<br>Students will be contacted at their UH email address by their instructor prior to the first day of class. -->
+<td CLASS="default">Computing Literacy & Apps</td>
+<td CLASS="default">3</td>
+<td CLASS="default"><abbr title="Michael J Bauer"><span class="abbr" title="Michael J Bauer">M J Bauer</span></abbr></td>
+<td class="default" align="center">20</td>
+<td class="default" align="center">0</td>
+<td CLASS="default">TBA</td>
+<td CLASS="default">TBA</td>
+<td CLASS="default"><abbr title="Online Online Asynchronous"><span class="abbr" title="Online Online Asynchronous">ONLINE ASYNC</span></abbr></td>
+<td CLASS="default">08/21-12/15</td>
+</tr>
+<tr class="odd">
+<td colspan="13">
+Textbook Cost: $0<br><br>Students must use Microsoft Applications designed to run on the Windows or Mac Operating System which is available for a free download.  The online version of Microsoft Applications is not sufficient for this course.<br>Students will be contacted at their UH email address by their instructor prior to the first day of class.
+</td>
+</tr>
+<!-- sect_rec: i 'LEE', term: '202410', ssbsect_crn: '54171', ssrmeet: '54171' -->
+<!-- pt. a -->
+<!-- pt. b -->
+<!-- pt. c -->
+<!-- pt. d -->
+<!-- pt. e -->
+<!-- pt. f -->
+<!-- pt. g -->
+<tr>
+<td CLASS="default">TXT0</td>
+<!-- pt. h -->
+<td CLASS="default"><a href="./avail.class?i=LEE&t=202410&c=54171">54171</a></td>
+<td nowrap="nowrap" CLASS="default">ICS 101</td>
+<td CLASS="default">0</td>
+<!-- ssrmeet_array_length = 0 -->
+<!-- ssrmeet_array_length = 1 -->
+<!-- comment_text=Textbook Cost: $0<br>Students must use Microsoft Applications designed to run on the Windows or Mac Operating System which is available for a free download. The online version of Microsoft Applications is not sufficient for this course.<br><br>Students will be contacted at their UH email address by their instructor prior to the first day of class.<br> -->
+<td CLASS="default">Digital Tools Info World</td>
+<td CLASS="default">3</td>
+<td CLASS="default"><abbr title="Matthew W McAndrew"><span class="abbr" title="Matthew W McAndrew">M W McAndrew</span></abbr></td>
+<td class="default" align="center">20</td>
+<td class="default" align="center">0</td>
+<td CLASS="default">TBA</td>
+<td CLASS="default">TBA</td>
+<td CLASS="default"><abbr title="Online Online Asynchronous"><span class="abbr" title="Online Online Asynchronous">ONLINE ASYNC</span></abbr></td>
+<td CLASS="default">08/21-12/15</td>
+</tr>
+<tr>
+<td colspan="13">
+Textbook Cost: $0<br>Students must use Microsoft Applications designed to run on the Windows or Mac Operating System which is available for a free download. The online version of Microsoft Applications is not sufficient for this course.<br><br>Students will be contacted at their UH email address by their instructor prior to the first day of class.<br>
+</td>
+</tr>
+<!-- sect_rec: i 'LEE', term: '202410', ssbsect_crn: '54227', ssrmeet: '54227' -->
+<!-- pt. a -->
+<!-- pt. b -->
+<!-- pt. c -->
+<!-- pt. d -->
+<!-- pt. e -->
+<!-- pt. f -->
+<!-- pt. g -->
+<tr class="odd">
+<td CLASS="default">TXT0</td>
+<!-- pt. h -->
+<td CLASS="default"><a href="./avail.class?i=LEE&t=202410&c=54227">54227</a></td>
+<td nowrap="nowrap" CLASS="default">ICS 101</td>
+<td CLASS="default">0</td>
+<!-- ssrmeet_array_length = 0 -->
+<!-- ssrmeet_array_length = 1 -->
+<!-- comment_text=Textbook Cost: $0<br>Students must use Microsoft Applications designed to run on the Windows or Mac Operating System which is available for a free download. The online version of Microsoft Applications is not sufficient for this course.<br><br>Students will be contacted at their UH email address by their instructor prior to the first day of class. -->
+<td CLASS="default">Digital Tools Info World</td>
+<td CLASS="default">3</td>
+<td CLASS="default"><abbr title="Thomas D Burns"><span class="abbr" title="Thomas D Burns">T D Burns</span></abbr></td>
+<td class="default" align="center">17</td>
+<td class="default" align="center">3</td>
+<td CLASS="default">TBA</td>
+<td CLASS="default">TBA</td>
+<td CLASS="default"><abbr title="Online Online Asynchronous"><span class="abbr" title="Online Online Asynchronous">ONLINE ASYNC</span></abbr></td>
+<td CLASS="default">08/21-12/15</td>
+</tr>
+<tr class="odd">
+<td colspan="13">
+Textbook Cost: $0<br>Students must use Microsoft Applications designed to run on the Windows or Mac Operating System which is available for a free download. The online version of Microsoft Applications is not sufficient for this course.<br><br>Students will be contacted at their UH email address by their instructor prior to the first day of class.
+</td>
+</tr>
+<!-- sect_rec: i 'LEE', term: '202410', ssbsect_crn: '54247', ssrmeet: '54247' -->
+<!-- pt. a -->
+<!-- pt. b -->
+<!-- pt. c -->
+<!-- pt. d -->
+<!-- pt. e -->
+<!-- pt. f -->
+<!-- pt. g -->
+<tr>
+<td CLASS="default">TXT0</td>
+<!-- pt. h -->
+<td CLASS="default"><a href="./avail.class?i=LEE&t=202410&c=54247">54247</a></td>
+<td nowrap="nowrap" CLASS="default">ICS 101</td>
+<td CLASS="default">0</td>
+<!-- ssrmeet_array_length = 0 -->
+<!-- ssrmeet_array_length = 1 -->
+<!-- comment_text=Textbook Cost: $0<br>Students must use Microsoft Applications designed to run on the Windows or Mac Operating System which is available for a free download. The online version of Microsoft Applications is not sufficient for this course.<br><br>Students will be contacted at their UH email address by their instructor prior to the first day of class. -->
+<td CLASS="default">Digital Tools Info World</td>
+<td CLASS="default">3</td>
+<td CLASS="default"><abbr title="James J Arola"><span class="abbr" title="James J Arola">J J Arola</span></abbr></td>
+<td class="default" align="center">18</td>
+<td class="default" align="center">2</td>
+<td CLASS="default">TBA</td>
+<td CLASS="default">TBA</td>
+<td CLASS="default"><abbr title="Online Online Asynchronous"><span class="abbr" title="Online Online Asynchronous">ONLINE ASYNC</span></abbr></td>
+<td CLASS="default">08/21-12/15</td>
+</tr>
+<tr>
+<td colspan="13">
+Textbook Cost: $0<br>Students must use Microsoft Applications designed to run on the Windows or Mac Operating System which is available for a free download. The online version of Microsoft Applications is not sufficient for this course.<br><br>Students will be contacted at their UH email address by their instructor prior to the first day of class.
+</td>
+</tr>
+<!-- sect_rec: i 'LEE', term: '202410', ssbsect_crn: '54337', ssrmeet: '54337' -->
+<!-- pt. a -->
+<!-- pt. b -->
+<!-- pt. c -->
+<!-- pt. d -->
+<!-- pt. e -->
+<!-- pt. f -->
+<!-- pt. g -->
+<tr class="odd">
+<td CLASS="default">TXT0</td>
+<!-- pt. h -->
+<td CLASS="default"><a href="./avail.class?i=LEE&t=202410&c=54337">54337</a></td>
+<td nowrap="nowrap" CLASS="default">ICS 101</td>
+<td CLASS="default">0</td>
+<!-- ssrmeet_array_length = 0 -->
+<!-- ssrmeet_array_length = 1 -->
+<!-- comment_text=Textbook Cost: $0<br>Students must use Microsoft Applications designed to run on the Windows or Mac Operating System which is available for a free download. The online version of Microsoft Applications is not sufficient for this course.<br><br>Students will be contacted at their UH email address by their instructor prior to the first day of class. -->
+<td CLASS="default">Digital Tools Info World</td>
+<td CLASS="default">3</td>
+<td CLASS="default"><abbr title="Robert K Sanpei"><span class="abbr" title="Robert K Sanpei">R K Sanpei</span></abbr></td>
+<td class="default" align="center">19</td>
+<td class="default" align="center">1</td>
+<td CLASS="default">TBA</td>
+<td CLASS="default">TBA</td>
+<td CLASS="default"><abbr title="Online Online Asynchronous"><span class="abbr" title="Online Online Asynchronous">ONLINE ASYNC</span></abbr></td>
+<td CLASS="default">08/21-12/15</td>
+</tr>
+<tr class="odd">
+<td colspan="13">
+Textbook Cost: $0<br>Students must use Microsoft Applications designed to run on the Windows or Mac Operating System which is available for a free download. The online version of Microsoft Applications is not sufficient for this course.<br><br>Students will be contacted at their UH email address by their instructor prior to the first day of class.
+</td>
+</tr>
+<!-- sect_rec: i 'LEE', term: '202410', ssbsect_crn: '54381', ssrmeet: '54381' -->
+<!-- pt. a -->
+<!-- pt. b -->
+<!-- pt. c -->
+<!-- pt. d -->
+<!-- pt. e -->
+<!-- pt. f -->
+<!-- pt. g -->
+<tr>
+<td CLASS="default">TXT0</td>
+<!-- pt. h -->
+<td CLASS="default"><a href="./avail.class?i=LEE&t=202410&c=54381">54381</a></td>
+<td nowrap="nowrap" CLASS="default">ICS 101</td>
+<td CLASS="default">0</td>
+<!-- ssrmeet_array_length = 0 -->
+<!-- ssrmeet_array_length = 1 -->
+<!-- comment_text=Textbook Cost: $0<br>Students must use Microsoft Applications designed to run on the Windows or Mac Operating System which is available for a free download. The online version of Microsoft Applications is not sufficient for this course.<br><br>Students will be contacted at their UH email address by their instructor prior to the first day of class. -->
+<td CLASS="default">Digital Tools Info World</td>
+<td CLASS="default">3</td>
+<td CLASS="default"><abbr title="Thomas D Burns"><span class="abbr" title="Thomas D Burns">T D Burns</span></abbr></td>
+<td class="default" align="center">20</td>
+<td class="default" align="center">0</td>
+<td CLASS="default">TBA</td>
+<td CLASS="default">TBA</td>
+<td CLASS="default"><abbr title="Online Online Asynchronous"><span class="abbr" title="Online Online Asynchronous">ONLINE ASYNC</span></abbr></td>
+<td CLASS="default">08/21-12/15</td>
+</tr>
+<tr>
+<td colspan="13">
+Textbook Cost: $0<br>Students must use Microsoft Applications designed to run on the Windows or Mac Operating System which is available for a free download. The online version of Microsoft Applications is not sufficient for this course.<br><br>Students will be contacted at their UH email address by their instructor prior to the first day of class.
+</td>
+</tr>
+<!-- sect_rec: i 'LEE', term: '202410', ssbsect_crn: '54397', ssrmeet: '54397' -->
+<!-- pt. a -->
+<!-- pt. b -->
+<!-- pt. c -->
+<!-- pt. d -->
+<!-- pt. e -->
+<!-- pt. f -->
+<!-- pt. g -->
+<tr class="odd">
+<td CLASS="default">TXT0</td>
+<!-- pt. h -->
+<td CLASS="default"><a href="./avail.class?i=LEE&t=202410&c=54397">54397</a></td>
+<td nowrap="nowrap" CLASS="default">ICS 101</td>
+<td CLASS="default">0</td>
+<!-- ssrmeet_array_length = 0 -->
+<!-- ssrmeet_array_length = 1 -->
+<!-- comment_text=Textbook Cost: $0<br>Students must use Microsoft Applications designed to run on the Windows or Mac Operating System which is available for a free download. The online version of Microsoft Applications is not sufficient for this course.<br><br>Students will be contacted at their UH email address by their instructor prior to the first day of class.<br> -->
+<td CLASS="default">Digital Tools Info World</td>
+<td CLASS="default">3</td>
+<td CLASS="default"><abbr title="Thomas D Burns"><span class="abbr" title="Thomas D Burns">T D Burns</span></abbr></td>
+<td class="default" align="center">7</td>
+<td class="default" align="center">1</td>
+<td CLASS="default">TBA</td>
+<td CLASS="default">TBA</td>
+<td CLASS="default"><abbr title="Online Online Asynchronous"><span class="abbr" title="Online Online Asynchronous">ONLINE ASYNC</span></abbr></td>
+<td CLASS="default">08/21-12/15</td>
+</tr>
+<tr class="odd">
+<td colspan="13">
+Textbook Cost: $0<br>Students must use Microsoft Applications designed to run on the Windows or Mac Operating System which is available for a free download. The online version of Microsoft Applications is not sufficient for this course.<br><br>Students will be contacted at their UH email address by their instructor prior to the first day of class.<br>
+</td>
+</tr>
+<!-- sect_rec: i 'LEE', term: '202410', ssbsect_crn: '54461', ssrmeet: '54461' -->
+<!-- pt. a -->
+<!-- pt. b -->
+<!-- pt. c -->
+<!-- pt. d -->
+<!-- pt. e -->
+<!-- pt. f -->
+<!-- pt. g -->
+<tr>
+<td CLASS="default">TXT0</td>
+<!-- pt. h -->
+<td CLASS="default"><a href="./avail.class?i=LEE&t=202410&c=54461">54461</a></td>
+<td nowrap="nowrap" CLASS="default">ICS 101</td>
+<td CLASS="default">0</td>
+<!-- ssrmeet_array_length = 0 -->
+<!-- ssrmeet_array_length = 1 -->
+<!-- comment_text=Textbook Cost: $0<br>Students must use Microsoft Applications designed to run on the Windows or Mac Operating System which is available for a free download. The online version of Microsoft Applications is not sufficient for this course.<br><br>Students will be contacted at their UH email address by their instructor prior to the first day of class.<br> -->
+<td CLASS="default">Digital Tools Info World</td>
+<td CLASS="default">3</td>
+<td CLASS="default"><abbr title="Courtney N Kinder"><span class="abbr" title="Courtney N Kinder">C N Kinder</span></abbr></td>
+<td class="default" align="center">17</td>
+<td class="default" align="center">3</td>
+<td CLASS="default">TBA</td>
+<td CLASS="default">TBA</td>
+<td CLASS="default"><abbr title="Online Online Asynchronous"><span class="abbr" title="Online Online Asynchronous">ONLINE ASYNC</span></abbr></td>
+<td CLASS="default">08/21-12/15</td>
+</tr>
+<tr>
+<td colspan="13">
+Textbook Cost: $0<br>Students must use Microsoft Applications designed to run on the Windows or Mac Operating System which is available for a free download. The online version of Microsoft Applications is not sufficient for this course.<br><br>Students will be contacted at their UH email address by their instructor prior to the first day of class.<br>
+</td>
+</tr>
+<!-- sect_rec: i 'LEE', term: '202410', ssbsect_crn: '54462', ssrmeet: '54462' -->
+<!-- pt. a -->
+<!-- pt. b -->
+<!-- pt. c -->
+<!-- pt. d -->
+<!-- pt. e -->
+<!-- pt. f -->
+<!-- pt. g -->
+<tr class="odd">
+<td CLASS="default">TXT0</td>
+<!-- pt. h -->
+<td CLASS="default"><a href="./avail.class?i=LEE&t=202410&c=54462">54462</a></td>
+<td nowrap="nowrap" CLASS="default">ICS 101</td>
+<td CLASS="default">0</td>
+<!-- ssrmeet_array_length = 0 -->
+<!-- ssrmeet_array_length = 1 -->
+<!-- comment_text=Textbook Cost: $0<br>Students must use Microsoft Applications designed to run on the Windows or Mac Operating System which is available for a free download. The online version of Microsoft Applications is not sufficient for this course.<br><br>Students will be contacted at their UH email address by their instructor prior to the first day of class.<br> -->
+<td CLASS="default">Digital Tools Info World</td>
+<td CLASS="default">3</td>
+<td CLASS="default"><abbr title="Branden S Ogata"><span class="abbr" title="Branden S Ogata">B S Ogata</span></abbr></td>
+<td class="default" align="center">20</td>
+<td class="default" align="center">0</td>
+<td CLASS="default">TBA</td>
+<td CLASS="default">TBA</td>
+<td CLASS="default"><abbr title="Online Online Asynchronous"><span class="abbr" title="Online Online Asynchronous">ONLINE ASYNC</span></abbr></td>
+<td CLASS="default">08/21-12/15</td>
+</tr>
+<tr class="odd">
+<td colspan="13">
+Textbook Cost: $0<br>Students must use Microsoft Applications designed to run on the Windows or Mac Operating System which is available for a free download. The online version of Microsoft Applications is not sufficient for this course.<br><br>Students will be contacted at their UH email address by their instructor prior to the first day of class.<br>
+</td>
+</tr>
+<!-- sect_rec: i 'LEE', term: '202410', ssbsect_crn: '54594', ssrmeet: '54594' -->
+<!-- pt. a -->
+<!-- pt. b -->
+<!-- pt. c -->
+<!-- pt. d -->
+<!-- pt. e -->
+<!-- pt. f -->
+<!-- pt. g -->
+<tr>
+<td CLASS="default">TXT0</td>
+<!-- pt. h -->
+<td CLASS="default"><a href="./avail.class?i=LEE&t=202410&c=54594">54594</a></td>
+<td nowrap="nowrap" CLASS="default">ICS 101</td>
+<td CLASS="default">0</td>
+<!-- ssrmeet_array_length = 0 -->
+<!-- ssrmeet_array_length = 1 -->
+<!-- comment_text=Textbook Cost: $0.<br><b>THIS COURSE IS HELD AT THE LEEWARD CC-WAI`ANAE MOKU CAMPUS.</b><br>This course meets on campus during the stated days/times. -->
+<td CLASS="default">Digital Tools Info World</td>
+<td CLASS="default">3</td>
+<td CLASS="default"><abbr title="Randy R Gomabon"><span class="abbr" title="Randy R Gomabon">R R Gomabon</span></abbr></td>
+<td class="default" align="center">13</td>
+<td class="default" align="center">7</td>
+<td CLASS="default">TR</td>
+<td nowrap="nowrap" CLASS="default">0100-<spacer />0215p</td>
+<td CLASS="default"><abbr title="WaianaeCampus 87-380Kulaaupuni Room 111"><span class="abbr" title="WaianaeCampus 87-380Kulaaupuni Room 111">LCCW 111</span></abbr></td>
+<td CLASS="default">08/21-12/15</td>
+</tr>
+<tr>
+<td colspan="13">
+Textbook Cost: $0.<br><b>THIS COURSE IS HELD AT THE LEEWARD CC-WAI`ANAE MOKU CAMPUS.</b><br>This course meets on campus during the stated days/times.
+</td>
+</tr>
+<!-- sect_rec: i 'LEE', term: '202410', ssbsect_crn: '54861', ssrmeet: '54861' -->
+<!-- pt. a -->
+<!-- pt. b -->
+<!-- pt. c -->
+<!-- pt. d -->
+<!-- pt. e -->
+<!-- pt. f -->
+<!-- pt. g -->
+<tr class="odd">
+<td CLASS="default">ONL5</td>
+<!-- pt. h -->
+<td CLASS="default"><a href="./avail.class?i=LEE&t=202410&c=54861">54861</a></td>
+<td nowrap="nowrap" CLASS="default">ICS 101</td>
+<td CLASS="default">0</td>
+<!-- ssrmeet_array_length = 0 -->
+<!-- ssrmeet_array_length = 1 -->
+<!-- comment_text=<b>ACCELERATED CLASS: THIS IS A 5-WEEK COURSE THAT BEGINS ON 08/21/23 AND ENDS ON 09/22/23.</b> <br>This course is restricted to students in the AA Online Program. Any unused seats in this section will be available (in a different CRN) on or before 4/17/23. -->
+<td CLASS="default">Digital Tools Info World</td>
+<td CLASS="default">3</td>
+<td CLASS="default"><abbr title="William R Wright"><span class="abbr" title="William R Wright">W R Wright</span></abbr></td>
+<td class="default" align="center">2</td>
+<td class="default" align="center">6</td>
+<td CLASS="default">TBA</td>
+<td CLASS="default">TBA</td>
+<td CLASS="default"><abbr title="Online Online Asynchronous"><span class="abbr" title="Online Online Asynchronous">ONLINE ASYNC</span></abbr></td>
+<td CLASS="default">08/21-09/22</td>
+</tr>
+<tr class="odd">
+<td colspan="13">
+<b>ACCELERATED CLASS: THIS IS A 5-WEEK COURSE THAT BEGINS ON 08/21/23 AND ENDS ON 09/22/23.</b> <br>This course is restricted to students in the AA Online Program. Any unused seats in this section will be available (in a different CRN) on or before 4/17/23.
+</td>
+</tr>
+<!-- sect_rec: i 'LEE', term: '202410', ssbsect_crn: '54862', ssrmeet: '54862' -->
+<!-- pt. a -->
+<!-- pt. b -->
+<!-- pt. c -->
+<!-- pt. d -->
+<!-- pt. e -->
+<!-- pt. f -->
+<!-- pt. g -->
+<tr>
+<td CLASS="default">ONLD</td>
+<!-- pt. h -->
+<td CLASS="default"><a href="./avail.class?i=LEE&t=202410&c=54862">54862</a></td>
+<td nowrap="nowrap" CLASS="default">ICS 101</td>
+<td CLASS="default">0</td>
+<!-- ssrmeet_array_length = 0 -->
+<!-- ssrmeet_array_length = 1 -->
+<!-- comment_text=<b>ACCELERATED CLASS: THIS IS A 5-WEEK COURSE THAT BEGINS ON 08/21/23 AND ENDS ON 09/22/23.</b> -->
+<td CLASS="default">Digital Tools Info World</td>
+<td CLASS="default">3</td>
+<td CLASS="default"><abbr title="William R Wright"><span class="abbr" title="William R Wright">W R Wright</span></abbr></td>
+<td class="default" align="center">17</td>
+<td class="default" align="center">6</td>
+<td CLASS="default">TBA</td>
+<td CLASS="default">TBA</td>
+<td CLASS="default"><abbr title="Online Online Asynchronous"><span class="abbr" title="Online Online Asynchronous">ONLINE ASYNC</span></abbr></td>
+<td CLASS="default">08/21-09/22</td>
+</tr>
+<tr>
+<td colspan="13">
+<b>ACCELERATED CLASS: THIS IS A 5-WEEK COURSE THAT BEGINS ON 08/21/23 AND ENDS ON 09/22/23.</b>
+</td>
+</tr>
+<!-- sect_rec: i 'LEE', term: '202410', ssbsect_crn: '54941', ssrmeet: '54941' -->
+<!-- pt. a -->
+<!-- pt. b -->
+<!-- pt. c -->
+<!-- pt. d -->
+<!-- pt. e -->
+<!-- pt. f -->
+<!-- pt. g -->
+<tr class="odd">
+<td CLASS="default">TXT0</td>
+<!-- pt. h -->
+<td CLASS="default"><a href="./avail.class?i=LEE&t=202410&c=54941">54941</a></td>
+<td nowrap="nowrap" CLASS="default">ICS 101</td>
+<td CLASS="default">0</td>
+<!-- ssrmeet_array_length = 0 -->
+<!-- ssrmeet_array_length = 1 -->
+<!-- comment_text=Textbook Cost: $0<br>Students must use Microsoft Applications designed to run on the Windows or Mac Operating System which is available for a free download. The online version of Microsoft Applications is not sufficient for this course.<br><br>Students will be contacted at their UH email address by their instructor prior to the first day of class.<br> -->
+<td CLASS="default">Digital Tools Info World</td>
+<td CLASS="default">3</td>
+<td CLASS="default"><abbr title="Thomas D Burns"><span class="abbr" title="Thomas D Burns">T D Burns</span></abbr></td>
+<td class="default" align="center">12</td>
+<td class="default" align="center">1</td>
+<td CLASS="default">M</td>
+<td nowrap="nowrap" CLASS="default">0130-<spacer />0245p</td>
+<td CLASS="default"><abbr title="Biological Science Classroom 105"><span class="abbr" title="Biological Science Classroom 105">BS 105</span></abbr></td>
+<td CLASS="default">08/21-12/15</td>
+</tr>
+<tr class="odd">
+<td colspan="13">
+Textbook Cost: $0<br>Students must use Microsoft Applications designed to run on the Windows or Mac Operating System which is available for a free download. The online version of Microsoft Applications is not sufficient for this course.<br><br>Students will be contacted at their UH email address by their instructor prior to the first day of class.<br>
+</td>
+</tr>
+<!-- sect_rec: i 'LEE', term: '202410', ssbsect_crn: '55201', ssrmeet: '55201' -->
+<!-- pt. a -->
+<!-- pt. b -->
+<!-- pt. c -->
+<!-- pt. d -->
+<!-- pt. e -->
+<!-- pt. f -->
+<!-- pt. g -->
+<tr>
+<td CLASS="default">TXT0</td>
+<!-- pt. h -->
+<td CLASS="default"><a href="./avail.class?i=LEE&t=202410&c=55201">55201</a></td>
+<td nowrap="nowrap" CLASS="default">ICS 101</td>
+<td CLASS="default">0</td>
+<!-- ssrmeet_array_length = 0 -->
+<!-- ssrmeet_array_length = 1 -->
+<!-- comment_text=Textbook Cost: $0<br>Students must use Microsoft Applications designed to run on the Windows or Mac Operating System which is available for a free download. The online version of Microsoft Applications is not sufficient for this course.<br><br>Students will be contacted at their UH email address by their instructor prior to the first day of class.<br> -->
+<td CLASS="default">Digital Tools Info World</td>
+<td CLASS="default">3</td>
+<td CLASS="default"><abbr title="Eden Patterson"><span class="abbr" title="Eden Patterson">E Patterson</span></abbr></td>
+<td class="default" align="center">16</td>
+<td class="default" align="center">4</td>
+<td CLASS="default">TBA</td>
+<td CLASS="default">TBA</td>
+<td CLASS="default"><abbr title="Online Online Asynchronous"><span class="abbr" title="Online Online Asynchronous">ONLINE ASYNC</span></abbr></td>
+<td CLASS="default">08/21-12/15</td>
+</tr>
+<tr>
+<td colspan="13">
+Textbook Cost: $0<br>Students must use Microsoft Applications designed to run on the Windows or Mac Operating System which is available for a free download. The online version of Microsoft Applications is not sufficient for this course.<br><br>Students will be contacted at their UH email address by their instructor prior to the first day of class.<br>
+</td>
+</tr>
+<!-- sect_rec: i 'LEE', term: '202410', ssbsect_crn: '54342', ssrmeet: '54342' -->
+<!-- pt. a -->
+<!-- pt. b -->
+<!-- pt. c -->
+<!-- pt. d -->
+<!-- pt. e -->
+<!-- pt. f -->
+<!-- pt. g -->
+<tr class="odd">
+<td CLASS="default">TXT0</td>
+<!-- pt. h -->
+<td CLASS="default"><a href="./avail.class?i=LEE&t=202410&c=54342">54342</a></td>
+<td nowrap="nowrap" CLASS="default">ICS 110P</td>
+<td CLASS="default">0</td>
+<!-- ssrmeet_array_length = 0 -->
+<!-- ssrmeet_array_length = 1 -->
+<!-- comment_text=Textbook Cost: $0<br>Recommended preparation: ICS 100 or ICS 101.<br>Students will be contacted by UH email by their instructor prior to the first day of class. -->
+<td CLASS="default">Intro to Programming</td>
+<td CLASS="default">3</td>
+<td CLASS="default"><abbr title="Nikki D Manuel"><span class="abbr" title="Nikki D Manuel">N D Manuel</span></abbr></td>
+<td class="default" align="center">18</td>
+<td class="default" align="center">2</td>
+<td CLASS="default">TBA</td>
+<td CLASS="default">TBA</td>
+<td CLASS="default"><abbr title="Online Online Asynchronous"><span class="abbr" title="Online Online Asynchronous">ONLINE ASYNC</span></abbr></td>
+<td CLASS="default">08/21-12/15</td>
+</tr>
+<tr class="odd">
+<td colspan="13">
+Textbook Cost: $0<br>Recommended preparation: ICS 100 or ICS 101.<br>Students will be contacted by UH email by their instructor prior to the first day of class.
+</td>
+</tr>
+<!-- sect_rec: i 'LEE', term: '202410', ssbsect_crn: '54350', ssrmeet: '54350' -->
+<!-- pt. a -->
+<!-- pt. b -->
+<!-- pt. c -->
+<!-- pt. d -->
+<!-- pt. e -->
+<!-- pt. f -->
+<!-- pt. g -->
+<tr>
+<td CLASS="default">TXT0</td>
+<!-- pt. h -->
+<td CLASS="default"><a href="./avail.class?i=LEE&t=202410&c=54350">54350</a></td>
+<td nowrap="nowrap" CLASS="default">ICS 110P</td>
+<td CLASS="default">0</td>
+<!-- ssrmeet_array_length = 0 -->
+<!-- ssrmeet_array_length = 1 -->
+<!-- comment_text=Textbook Cost: $0<br>Recommended preparation: ICS 100 or ICS 101.<br>Students will be contacted by UH email by their instructor prior to the first day of class. -->
+<td CLASS="default">Intro to Programming</td>
+<td CLASS="default">3</td>
+<td CLASS="default"><abbr title="Nikki D Manuel"><span class="abbr" title="Nikki D Manuel">N D Manuel</span></abbr></td>
+<td class="default" align="center">16</td>
+<td class="default" align="center">4</td>
+<td CLASS="default">TBA</td>
+<td CLASS="default">TBA</td>
+<td CLASS="default"><abbr title="Online Online Asynchronous"><span class="abbr" title="Online Online Asynchronous">ONLINE ASYNC</span></abbr></td>
+<td CLASS="default">08/21-12/15</td>
+</tr>
+<tr>
+<td colspan="13">
+Textbook Cost: $0<br>Recommended preparation: ICS 100 or ICS 101.<br>Students will be contacted by UH email by their instructor prior to the first day of class.
+</td>
+</tr>
+<!-- sect_rec: i 'LEE', term: '202410', ssbsect_crn: '54528', ssrmeet: '54528' -->
+<!-- pt. a -->
+<!-- pt. b -->
+<!-- pt. c -->
+<!-- pt. d -->
+<!-- pt. e -->
+<!-- pt. f -->
+<!-- pt. g -->
+<tr class="odd">
+<td CLASS="default">TXT0</td>
+<!-- pt. h -->
+<td CLASS="default"><a href="./avail.class?i=LEE&t=202410&c=54528">54528</a></td>
+<td nowrap="nowrap" CLASS="default">ICS 110P</td>
+<td CLASS="default">0</td>
+<!-- ssrmeet_array_length = 0 -->
+<!-- ssrmeet_array_length = 1 -->
+<!-- comment_text=Textbook Cost: $0<br><br>Recommended preparation: ICS 100 or ICS 101.<br>Students will be contacted by UH email by their instructor prior to the first day of class. -->
+<td CLASS="default">Intro to Programming</td>
+<td CLASS="default">3</td>
+<td CLASS="default"><abbr title="William R Wright"><span class="abbr" title="William R Wright">W R Wright</span></abbr></td>
+<td class="default" align="center">12</td>
+<td class="default" align="center">2</td>
+<td CLASS="default">T</td>
+<td nowrap="nowrap" CLASS="default">0900-<spacer />1015a</td>
+<td CLASS="default"><abbr title="Biological Science Classroom 106B"><span class="abbr" title="Biological Science Classroom 106B">BS 106B</span></abbr></td>
+<td CLASS="default">08/21-12/15</td>
+</tr>
+<tr class="odd">
+<td colspan="13">
+Textbook Cost: $0<br><br>Recommended preparation: ICS 100 or ICS 101.<br>Students will be contacted by UH email by their instructor prior to the first day of class.
+</td>
+</tr>
+<!-- sect_rec: i 'LEE', term: '202410', ssbsect_crn: '54654', ssrmeet: '54654' -->
+<!-- pt. a -->
+<!-- pt. b -->
+<!-- pt. c -->
+<!-- pt. d -->
+<!-- pt. e -->
+<!-- pt. f -->
+<!-- pt. g -->
+<tr>
+<td CLASS="default">TXT0</td>
+<!-- pt. h -->
+<td CLASS="default"><a href="./avail.class?i=LEE&t=202410&c=54654">54654</a></td>
+<td nowrap="nowrap" CLASS="default">ICS 110P</td>
+<td CLASS="default">0</td>
+<!-- ssrmeet_array_length = 0 -->
+<!-- ssrmeet_array_length = 1 -->
+<!-- comment_text=Textbook Cost: $0<br><br>Recommended preparation: ICS 100 or ICS 101.<br>Students will be contacted by UH email by their instructor prior to the first day of class. -->
+<td CLASS="default">Intro to Programming</td>
+<td CLASS="default">3</td>
+<td CLASS="default"><abbr title="William R Wright"><span class="abbr" title="William R Wright">W R Wright</span></abbr></td>
+<td class="default" align="center">6</td>
+<td class="default" align="center">2</td>
+<td CLASS="default">TBA</td>
+<td CLASS="default">TBA</td>
+<td CLASS="default"><abbr title="Online Online Asynchronous"><span class="abbr" title="Online Online Asynchronous">ONLINE ASYNC</span></abbr></td>
+<td CLASS="default">08/21-12/15</td>
+</tr>
+<tr>
+<td colspan="13">
+Textbook Cost: $0<br><br>Recommended preparation: ICS 100 or ICS 101.<br>Students will be contacted by UH email by their instructor prior to the first day of class.
+</td>
+</tr>
+<!-- sect_rec: i 'LEE', term: '202410', ssbsect_crn: '54670', ssrmeet: '54670' -->
+<!-- pt. a -->
+<!-- pt. b -->
+<!-- pt. c -->
+<!-- pt. d -->
+<!-- pt. e -->
+<!-- pt. f -->
+<!-- pt. g -->
+<tr class="odd">
+<td CLASS="default">TXT0</td>
+<!-- pt. h -->
+<td CLASS="default"><a href="./avail.class?i=LEE&t=202410&c=54670">54670</a></td>
+<td nowrap="nowrap" CLASS="default">ICS 110P</td>
+<td CLASS="default">0</td>
+<!-- ssrmeet_array_length = 0 -->
+<!-- ssrmeet_array_length = 1 -->
+<!-- comment_text=Textbook Cost: $0<br><br>Recommended preparation: ICS 100 or ICS 101.<br>Students will be contacted by UH email by their instructor prior to the first day of class. -->
+<td CLASS="default">Intro to Programming</td>
+<td CLASS="default">3</td>
+<td CLASS="default"><abbr title="Michael J Bauer"><span class="abbr" title="Michael J Bauer">M J Bauer</span></abbr></td>
+<td class="default" align="center">19</td>
+<td class="default" align="center">1</td>
+<td CLASS="default">TBA</td>
+<td CLASS="default">TBA</td>
+<td CLASS="default"><abbr title="Online Online Asynchronous"><span class="abbr" title="Online Online Asynchronous">ONLINE ASYNC</span></abbr></td>
+<td CLASS="default">08/21-12/15</td>
+</tr>
+<tr class="odd">
+<td colspan="13">
+Textbook Cost: $0<br><br>Recommended preparation: ICS 100 or ICS 101.<br>Students will be contacted by UH email by their instructor prior to the first day of class.
+</td>
+</tr>
+<!-- sect_rec: i 'LEE', term: '202410', ssbsect_crn: '54817', ssrmeet: '54817' -->
+<!-- pt. a -->
+<!-- pt. b -->
+<!-- pt. c -->
+<!-- pt. d -->
+<!-- pt. e -->
+<!-- pt. f -->
+<!-- pt. g -->
+<tr>
+<td CLASS="default">TXT0</td>
+<!-- pt. h -->
+<td CLASS="default"><a href="./avail.class?i=LEE&t=202410&c=54817">54817</a></td>
+<td nowrap="nowrap" CLASS="default">ICS 110P</td>
+<td CLASS="default">0</td>
+<!-- ssrmeet_array_length = 0 -->
+<!-- ssrmeet_array_length = 1 -->
+<!-- comment_text=Textbook Cost: $0<br><br>Recommended preparation: ICS 100 or ICS 101.<br>Students will be contacted by UH email by their instructor prior to the first day of class. -->
+<td CLASS="default">Intro to Programming</td>
+<td CLASS="default">3</td>
+<td CLASS="default"><abbr title="William R Wright"><span class="abbr" title="William R Wright">W R Wright</span></abbr></td>
+<td class="default" align="center">15</td>
+<td class="default" align="center">5</td>
+<td CLASS="default">TBA</td>
+<td CLASS="default">TBA</td>
+<td CLASS="default"><abbr title="Online Online Asynchronous"><span class="abbr" title="Online Online Asynchronous">ONLINE ASYNC</span></abbr></td>
+<td CLASS="default">08/21-12/15</td>
+</tr>
+<tr>
+<td colspan="13">
+Textbook Cost: $0<br><br>Recommended preparation: ICS 100 or ICS 101.<br>Students will be contacted by UH email by their instructor prior to the first day of class.
+</td>
+</tr>
+<!-- sect_rec: i 'LEE', term: '202410', ssbsect_crn: '55154', ssrmeet: '55154' -->
+<!-- pt. a -->
+<!-- pt. b -->
+<!-- pt. c -->
+<!-- pt. d -->
+<!-- pt. e -->
+<!-- pt. f -->
+<!-- pt. g -->
+<tr class="odd">
+<td CLASS="default">TXT0</td>
+<!-- pt. h -->
+<td CLASS="default"><a href="./avail.class?i=LEE&t=202410&c=55154">55154</a></td>
+<td nowrap="nowrap" CLASS="default">ICS 110P</td>
+<td CLASS="default">0</td>
+<!-- ssrmeet_array_length = 0 -->
+<!-- ssrmeet_array_length = 1 -->
+<!-- comment_text=Textbook Cost: $0<br><b>THIS COURSE IS HELD AT LEEWARD CC WAIANAE MOKU CAMPUS.</b><br>This course requires students to attend classes on campus on Wednesdays at the stated time. Students complete work independently in lieu of the other class meeting. <br>Recommended preparation: ICS 100 or ICS 101.<br>Students will be contacted by UH email by their instructor prior to the first day of class. -->
+<td CLASS="default">Intro to Programming</td>
+<td CLASS="default">3</td>
+<td CLASS="default"><abbr title="Vincent T Domingo"><span class="abbr" title="Vincent T Domingo">V T Domingo</span></abbr></td>
+<td class="default" align="center">9</td>
+<td class="default" align="center">11</td>
+<td CLASS="default">W</td>
+<td nowrap="nowrap" CLASS="default">0415-<spacer />0530p</td>
+<td CLASS="default"><abbr title="WaianaeCampus 87-380Kulaaupuni Room 111"><span class="abbr" title="WaianaeCampus 87-380Kulaaupuni Room 111">LCCW 111</span></abbr></td>
+<td CLASS="default">08/21-12/15</td>
+</tr>
+<tr class="odd">
+<td colspan="13">
+Textbook Cost: $0<br><b>THIS COURSE IS HELD AT LEEWARD CC WAIANAE MOKU CAMPUS.</b><br>This course requires students to attend classes on campus on Wednesdays at the stated time. Students complete work independently in lieu of the other class meeting. <br>Recommended preparation: ICS 100 or ICS 101.<br>Students will be contacted by UH email by their instructor prior to the first day of class.
+</td>
+</tr>
+<!-- sect_rec: i 'LEE', term: '202410', ssbsect_crn: '54050', ssrmeet: '54050' -->
+<!-- pt. a -->
+<!-- pt. b -->
+<!-- pt. c -->
+<!-- pt. d -->
+<!-- pt. e -->
+<!-- pt. f -->
+<!-- pt. g -->
+<tr>
+<td CLASS="default">TXT0</td>
+<!-- pt. h -->
+<td CLASS="default"><a href="./avail.class?i=LEE&t=202410&c=54050">54050</a></td>
+<td nowrap="nowrap" CLASS="default">ICS 111</td>
+<td CLASS="default">0</td>
+<!-- ssrmeet_array_length = 0 -->
+<!-- ssrmeet_array_length = 1 -->
+<!-- comment_text=Textbook Cost: $0.<br>Prerequisites: ENG 22 or ENG 24 or equivalent or higher with a grade of "C" or better and MATH 82 or equivalent or higher with a grade of "CR" or consent of instructor.<br><br>Students will be contacted by UH email by their instructor prior to the first day of class. -->
+<td CLASS="default">Intro to Comp Sci I</td>
+<td CLASS="default">3</td>
+<td CLASS="default"><abbr title="Nikki D Manuel"><span class="abbr" title="Nikki D Manuel">N D Manuel</span></abbr></td>
+<td class="default" align="center">9</td>
+<td class="default" align="center">0</td>
+<td CLASS="default">M</td>
+<td nowrap="nowrap" CLASS="default">0900-<spacer />1015a</td>
+<td CLASS="default"><abbr title="Biological Science Classroom 105"><span class="abbr" title="Biological Science Classroom 105">BS 105</span></abbr></td>
+<td CLASS="default">08/21-12/15</td>
+</tr>
+<tr>
+<td colspan="13">
+Textbook Cost: $0.<br>Prerequisites: ENG 22 or ENG 24 or equivalent or higher with a grade of "C" or better and MATH 82 or equivalent or higher with a grade of "CR" or consent of instructor.<br><br>Students will be contacted by UH email by their instructor prior to the first day of class.
+</td>
+</tr>
+<!-- sect_rec: i 'LEE', term: '202410', ssbsect_crn: '54273', ssrmeet: '54273' -->
+<!-- pt. a -->
+<!-- pt. b -->
+<!-- pt. c -->
+<!-- pt. d -->
+<!-- pt. e -->
+<!-- pt. f -->
+<!-- pt. g -->
+<tr class="odd">
+<td CLASS="default">TXT0</td>
+<!-- pt. h -->
+<td CLASS="default"><a href="./avail.class?i=LEE&t=202410&c=54273">54273</a></td>
+<td nowrap="nowrap" CLASS="default">ICS 111</td>
+<td CLASS="default">0</td>
+<!-- ssrmeet_array_length = 0 -->
+<!-- ssrmeet_array_length = 1 -->
+<!-- comment_text=Textbook Cost: $0.<br>Prerequisites: ENG 22 or ENG 24 or equivalent or higher with a grade of "C" or better and MATH 82 or equivalent or higher with a grade of "CR" or consent of instructor.<br><br>Students will be contacted by UH email by their instructor prior to the first day of class. -->
+<td CLASS="default">Intro to Comp Sci I</td>
+<td CLASS="default">3</td>
+<td CLASS="default"><abbr title="Nikki D Manuel"><span class="abbr" title="Nikki D Manuel">N D Manuel</span></abbr></td>
+<td class="default" align="center">11</td>
+<td class="default" align="center">0</td>
+<td CLASS="default">TBA</td>
+<td CLASS="default">TBA</td>
+<td CLASS="default"><abbr title="Online Online Asynchronous"><span class="abbr" title="Online Online Asynchronous">ONLINE ASYNC</span></abbr></td>
+<td CLASS="default">08/21-12/15</td>
+</tr>
+<tr class="odd">
+<td colspan="13">
+Textbook Cost: $0.<br>Prerequisites: ENG 22 or ENG 24 or equivalent or higher with a grade of "C" or better and MATH 82 or equivalent or higher with a grade of "CR" or consent of instructor.<br><br>Students will be contacted by UH email by their instructor prior to the first day of class.
+</td>
+</tr>
+<!-- sect_rec: i 'LEE', term: '202410', ssbsect_crn: '54377', ssrmeet: '54377' -->
+<!-- pt. a -->
+<!-- pt. b -->
+<!-- pt. c -->
+<!-- pt. d -->
+<!-- pt. e -->
+<!-- pt. f -->
+<!-- pt. g -->
+<tr>
+<td CLASS="default">TXT0</td>
+<!-- pt. h -->
+<td CLASS="default"><a href="./avail.class?i=LEE&t=202410&c=54377">54377</a></td>
+<td nowrap="nowrap" CLASS="default">ICS 111</td>
+<td CLASS="default">0</td>
+<!-- ssrmeet_array_length = 0 -->
+<!-- ssrmeet_array_length = 1 -->
+<!-- comment_text=Textbook Cost: $0.<br>Prerequisites: ENG 22 or ENG 24 or equivalent or higher with a grade of "C" or better and MATH 82 or equivalent or higher with a grade of "CR" or consent of instructor.<br><br>Students will be contacted by UH email by their instructor prior to the first day of class. -->
+<td CLASS="default">Intro to Comp Sci I</td>
+<td CLASS="default">3</td>
+<td CLASS="default"><abbr title="Hong V Nguyen"><span class="abbr" title="Hong V Nguyen">H V Nguyen</span></abbr></td>
+<td class="default" align="center">17</td>
+<td class="default" align="center">3</td>
+<td CLASS="default">TBA</td>
+<td CLASS="default">TBA</td>
+<td CLASS="default"><abbr title="Online Online Asynchronous"><span class="abbr" title="Online Online Asynchronous">ONLINE ASYNC</span></abbr></td>
+<td CLASS="default">08/21-12/15</td>
+</tr>
+<tr>
+<td colspan="13">
+Textbook Cost: $0.<br>Prerequisites: ENG 22 or ENG 24 or equivalent or higher with a grade of "C" or better and MATH 82 or equivalent or higher with a grade of "CR" or consent of instructor.<br><br>Students will be contacted by UH email by their instructor prior to the first day of class.
+</td>
+</tr>
+<!-- sect_rec: i 'LEE', term: '202410', ssbsect_crn: '54382', ssrmeet: '54382' -->
+<!-- pt. a -->
+<!-- pt. b -->
+<!-- pt. c -->
+<!-- pt. d -->
+<!-- pt. e -->
+<!-- pt. f -->
+<!-- pt. g -->
+<tr class="odd">
+<td CLASS="default">TXT0</td>
+<!-- pt. h -->
+<td CLASS="default"><a href="./avail.class?i=LEE&t=202410&c=54382">54382</a></td>
+<td nowrap="nowrap" CLASS="default">ICS 111</td>
+<td CLASS="default">0</td>
+<!-- ssrmeet_array_length = 0 -->
+<!-- ssrmeet_array_length = 1 -->
+<!-- comment_text=Textbook Cost: $0.<br>Prerequisites: ENG 22 or ENG 24 or equivalent or higher with a grade of "C" or better and MATH 82 or equivalent or higher with a grade of "CR" or consent of instructor.<br><br>Students will be contacted by UH email by their instructor prior to the first day of class. -->
+<td CLASS="default">Intro to Comp Sci I</td>
+<td CLASS="default">3</td>
+<td CLASS="default"><abbr title="Edward T Meyer"><span class="abbr" title="Edward T Meyer">E T Meyer</span></abbr></td>
+<td class="default" align="center">20</td>
+<td class="default" align="center">0</td>
+<td CLASS="default">TBA</td>
+<td CLASS="default">TBA</td>
+<td CLASS="default"><abbr title="Online Online Asynchronous"><span class="abbr" title="Online Online Asynchronous">ONLINE ASYNC</span></abbr></td>
+<td CLASS="default">08/21-12/15</td>
+</tr>
+<tr class="odd">
+<td colspan="13">
+Textbook Cost: $0.<br>Prerequisites: ENG 22 or ENG 24 or equivalent or higher with a grade of "C" or better and MATH 82 or equivalent or higher with a grade of "CR" or consent of instructor.<br><br>Students will be contacted by UH email by their instructor prior to the first day of class.
+</td>
+</tr>
+<!-- sect_rec: i 'LEE', term: '202410', ssbsect_crn: '54447', ssrmeet: '54447' -->
+<!-- pt. a -->
+<!-- pt. b -->
+<!-- pt. c -->
+<!-- pt. d -->
+<!-- pt. e -->
+<!-- pt. f -->
+<!-- pt. g -->
+<tr>
+<td CLASS="default">TXT0</td>
+<!-- pt. h -->
+<td CLASS="default"><a href="./avail.class?i=LEE&t=202410&c=54447">54447</a></td>
+<td nowrap="nowrap" CLASS="default">ICS 111</td>
+<td CLASS="default">0</td>
+<!-- ssrmeet_array_length = 0 -->
+<!-- ssrmeet_array_length = 1 -->
+<!-- comment_text=Textbook Cost: $0.<br>Prerequisites: ENG 22 or ENG 24 or equivalent or higher with a grade of "C" or better and MATH 82 or equivalent or higher with a grade of "CR" or consent of instructor.<br><br>Students will be contacted by UH email by their instructor prior to the first day of class. -->
+<td CLASS="default">Intro to Comp Sci I</td>
+<td CLASS="default">3</td>
+<td CLASS="default"><abbr title="Edward T Meyer"><span class="abbr" title="Edward T Meyer">E T Meyer</span></abbr></td>
+<td class="default" align="center">20</td>
+<td class="default" align="center">0</td>
+<td CLASS="default">TBA</td>
+<td CLASS="default">TBA</td>
+<td CLASS="default"><abbr title="Online Online Asynchronous"><span class="abbr" title="Online Online Asynchronous">ONLINE ASYNC</span></abbr></td>
+<td CLASS="default">08/21-12/15</td>
+</tr>
+<tr>
+<td colspan="13">
+Textbook Cost: $0.<br>Prerequisites: ENG 22 or ENG 24 or equivalent or higher with a grade of "C" or better and MATH 82 or equivalent or higher with a grade of "CR" or consent of instructor.<br><br>Students will be contacted by UH email by their instructor prior to the first day of class.
+</td>
+</tr>
+<!-- sect_rec: i 'LEE', term: '202410', ssbsect_crn: '54529', ssrmeet: '54529' -->
+<!-- pt. a -->
+<!-- pt. b -->
+<!-- pt. c -->
+<!-- pt. d -->
+<!-- pt. e -->
+<!-- pt. f -->
+<!-- pt. g -->
+<tr class="odd">
+<td CLASS="default">TXT0</td>
+<!-- pt. h -->
+<td CLASS="default"><a href="./avail.class?i=LEE&t=202410&c=54529">54529</a></td>
+<td nowrap="nowrap" CLASS="default">ICS 111</td>
+<td CLASS="default">0</td>
+<!-- ssrmeet_array_length = 0 -->
+<!-- ssrmeet_array_length = 1 -->
+<!-- comment_text=Textbook Cost: $0.<br>Prerequisites: ENG 22 or ENG 24 or equivalent or higher with a grade of "C" or better and MATH 82 or equivalent or higher with a grade of "CR" or consent of instructor.<br><br>Students will be contacted by UH email by their instructor prior to the first day of class. -->
+<td CLASS="default">Intro to Comp Sci I</td>
+<td CLASS="default">3</td>
+<td CLASS="default"><abbr title="Nikki D Manuel"><span class="abbr" title="Nikki D Manuel">N D Manuel</span></abbr></td>
+<td class="default" align="center">17</td>
+<td class="default" align="center">3</td>
+<td CLASS="default">TBA</td>
+<td CLASS="default">TBA</td>
+<td CLASS="default"><abbr title="Online Online Asynchronous"><span class="abbr" title="Online Online Asynchronous">ONLINE ASYNC</span></abbr></td>
+<td CLASS="default">08/21-12/15</td>
+</tr>
+<tr class="odd">
+<td colspan="13">
+Textbook Cost: $0.<br>Prerequisites: ENG 22 or ENG 24 or equivalent or higher with a grade of "C" or better and MATH 82 or equivalent or higher with a grade of "CR" or consent of instructor.<br><br>Students will be contacted by UH email by their instructor prior to the first day of class.
+</td>
+</tr>
+<!-- sect_rec: i 'LEE', term: '202410', ssbsect_crn: '54657', ssrmeet: '54657' -->
+<!-- pt. a -->
+<!-- pt. b -->
+<!-- pt. c -->
+<!-- pt. d -->
+<!-- pt. e -->
+<!-- pt. f -->
+<!-- pt. g -->
+<tr>
+<td CLASS="default">&nbsp;</td>
+<!-- pt. h -->
+<td CLASS="default"><a href="./avail.class?i=LEE&t=202410&c=54657">54657</a></td>
+<td nowrap="nowrap" CLASS="default">ICS 111</td>
+<td CLASS="default">0</td>
+<!-- ssrmeet_array_length = 0 -->
+<!-- ssrmeet_array_length = 1 -->
+<!-- comment_text=Prerequisites: ENG 22 or ENG 24 or equivalent or higher with a grade of "C" or better and MATH 82 or equivalent or higher with a grade of "CR" or consent of instructor.<br><br>Students will be contacted by UH email by their instructor prior to the first day of class.<br><br>This section will be participating in Leeward Community College Bookstore's program, IDAP.  For more information, please check the bookstore's textbook listing and IDAP FAQ page at www.bookstore.hawaii.edu/lcc. -->
+<td CLASS="default">Intro to Comp Sci I</td>
+<td CLASS="default">3</td>
+<td CLASS="default"><abbr title="Blanca J Polo"><span class="abbr" title="Blanca J Polo">B J Polo</span></abbr></td>
+<td class="default" align="center">19</td>
+<td class="default" align="center">1</td>
+<td CLASS="default">TBA</td>
+<td CLASS="default">TBA</td>
+<td CLASS="default"><abbr title="Online Online Asynchronous"><span class="abbr" title="Online Online Asynchronous">ONLINE ASYNC</span></abbr></td>
+<td CLASS="default">08/21-12/15</td>
+</tr>
+<tr>
+<td colspan="13">
+Prerequisites: ENG 22 or ENG 24 or equivalent or higher with a grade of "C" or better and MATH 82 or equivalent or higher with a grade of "CR" or consent of instructor.<br><br>Students will be contacted by UH email by their instructor prior to the first day of class.<br><br>This section will be participating in Leeward Community College Bookstore's program, IDAP.  For more information, please check the bookstore's textbook listing and IDAP FAQ page at www.bookstore.hawaii.edu/lcc.
+</td>
+</tr>
+<!-- sect_rec: i 'LEE', term: '202410', ssbsect_crn: '54986', ssrmeet: '54986' -->
+<!-- pt. a -->
+<!-- pt. b -->
+<!-- pt. c -->
+<!-- pt. d -->
+<!-- pt. e -->
+<!-- pt. f -->
+<!-- pt. g -->
+<tr class="odd">
+<td CLASS="default">TXT0</td>
+<!-- pt. h -->
+<td CLASS="default"><a href="./avail.class?i=LEE&t=202410&c=54986">54986</a></td>
+<td nowrap="nowrap" CLASS="default">ICS 111</td>
+<td CLASS="default">0</td>
+<!-- ssrmeet_array_length = 0 -->
+<!-- ssrmeet_array_length = 1 -->
+<!-- comment_text=Textbook Cost: $0.<br>Prerequisites: ENG 22 or ENG 24 or equivalent or higher with a grade of "C" or better and MATH 82 or equivalent or higher with a grade of "CR" or consent of instructor.<br><br>Students will be contacted by UH email by their instructor prior to the first day of class. -->
+<td CLASS="default">Intro to Comp Sci I</td>
+<td CLASS="default">3</td>
+<td CLASS="default"><abbr title="Hong V Nguyen"><span class="abbr" title="Hong V Nguyen">H V Nguyen</span></abbr></td>
+<td class="default" align="center">13</td>
+<td class="default" align="center">7</td>
+<td CLASS="default">TBA</td>
+<td CLASS="default">TBA</td>
+<td CLASS="default"><abbr title="Online Online Asynchronous"><span class="abbr" title="Online Online Asynchronous">ONLINE ASYNC</span></abbr></td>
+<td CLASS="default">08/21-12/15</td>
+</tr>
+<tr class="odd">
+<td colspan="13">
+Textbook Cost: $0.<br>Prerequisites: ENG 22 or ENG 24 or equivalent or higher with a grade of "C" or better and MATH 82 or equivalent or higher with a grade of "CR" or consent of instructor.<br><br>Students will be contacted by UH email by their instructor prior to the first day of class.
+</td>
+</tr>
+<!-- sect_rec: i 'LEE', term: '202410', ssbsect_crn: '54108', ssrmeet: '54108' -->
+<!-- pt. a -->
+<!-- pt. b -->
+<!-- pt. c -->
+<!-- pt. d -->
+<!-- pt. e -->
+<!-- pt. f -->
+<!-- pt. g -->
+<tr>
+<td CLASS="default">&nbsp;</td>
+<!-- pt. h -->
+<td CLASS="default"><a href="./avail.class?i=LEE&t=202410&c=54108">54108</a></td>
+<td nowrap="nowrap" CLASS="default">ICS 125</td>
+<td CLASS="default">0</td>
+<!-- ssrmeet_array_length = 0 -->
+<!-- ssrmeet_array_length = 1 -->
+<!-- comment_text=Prerequisites: Placed in ENG 100 and MATH 103 placement or higher STEM; or consent of instructor.<br>Recommended preparation: ICS 100 or ICS 101.<br>Purchase of an online access code for course materials is required.<br>Students will be contacted at their UH email address by their instructor prior to the first day of class. -->
+<td CLASS="default">PC Maintenance and Repair</td>
+<td CLASS="default">3</td>
+<td CLASS="default"><abbr title="Alejandro A Ramos"><span class="abbr" title="Alejandro A Ramos">A A Ramos</span></abbr></td>
+<td class="default" align="center">6</td>
+<td class="default" align="center">5</td>
+<td CLASS="default">W</td>
+<td nowrap="nowrap" CLASS="default">1030-<spacer />1145a</td>
+<td CLASS="default"><abbr title="Biological Science Classroom 106B"><span class="abbr" title="Biological Science Classroom 106B">BS 106B</span></abbr></td>
+<td CLASS="default">08/21-12/15</td>
+</tr>
+<tr>
+<td colspan="13">
+Prerequisites: Placed in ENG 100 and MATH 103 placement or higher STEM; or consent of instructor.<br>Recommended preparation: ICS 100 or ICS 101.<br>Purchase of an online access code for course materials is required.<br>Students will be contacted at their UH email address by their instructor prior to the first day of class.
+</td>
+</tr>
+<!-- sect_rec: i 'LEE', term: '202410', ssbsect_crn: '54145', ssrmeet: '54145' -->
+<!-- pt. a -->
+<!-- pt. b -->
+<!-- pt. c -->
+<!-- pt. d -->
+<!-- pt. e -->
+<!-- pt. f -->
+<!-- pt. g -->
+<tr class="odd">
+<td CLASS="default">&nbsp;</td>
+<!-- pt. h -->
+<td CLASS="default"><a href="./avail.class?i=LEE&t=202410&c=54145">54145</a></td>
+<td nowrap="nowrap" CLASS="default">ICS 125</td>
+<td CLASS="default">0</td>
+<!-- ssrmeet_array_length = 0 -->
+<!-- ssrmeet_array_length = 1 -->
+<!-- comment_text=Prerequisites: Placed in ENG 100 and MATH 103 placement or higher STEM; or consent of instructor.<br>Recommended preparation: ICS 100 or ICS 101.<br>Purchase of an online access code for course materials is required.<br>Students will be contacted at their UH email address by their instructor prior to the first day of class. -->
+<td CLASS="default">PC Maintenance and Repair</td>
+<td CLASS="default">3</td>
+<td CLASS="default"><abbr title="Alejandro A Ramos"><span class="abbr" title="Alejandro A Ramos">A A Ramos</span></abbr></td>
+<td class="default" align="center">9</td>
+<td class="default" align="center">5</td>
+<td CLASS="default">TBA</td>
+<td CLASS="default">TBA</td>
+<td CLASS="default"><abbr title="Online Online Asynchronous"><span class="abbr" title="Online Online Asynchronous">ONLINE ASYNC</span></abbr></td>
+<td CLASS="default">08/21-12/15</td>
+</tr>
+<tr class="odd">
+<td colspan="13">
+Prerequisites: Placed in ENG 100 and MATH 103 placement or higher STEM; or consent of instructor.<br>Recommended preparation: ICS 100 or ICS 101.<br>Purchase of an online access code for course materials is required.<br>Students will be contacted at their UH email address by their instructor prior to the first day of class.
+</td>
+</tr>
+<!-- sect_rec: i 'LEE', term: '202410', ssbsect_crn: '54672', ssrmeet: '54672' -->
+<!-- pt. a -->
+<!-- pt. b -->
+<!-- pt. c -->
+<!-- pt. d -->
+<!-- pt. e -->
+<!-- pt. f -->
+<!-- pt. g -->
+<tr>
+<td CLASS="default">&nbsp;</td>
+<!-- pt. h -->
+<td CLASS="default"><a href="./avail.class?i=LEE&t=202410&c=54672">54672</a></td>
+<td nowrap="nowrap" CLASS="default">ICS 125</td>
+<td CLASS="default">0</td>
+<!-- ssrmeet_array_length = 0 -->
+<!-- ssrmeet_array_length = 1 -->
+<!-- comment_text=Prerequisites: Placed in ENG 100 and MATH 103 placement or higher STEM; or consent of instructor.<br>Recommended preparation: ICS 100 or ICS 101.<br>Purchase of an online access code for course materials is required.<br>Students will be contacted at their UH email address by their instructor prior to the first day of class. -->
+<td CLASS="default">PC Maintenance and Repair</td>
+<td CLASS="default">3</td>
+<td CLASS="default"><abbr title="Alejandro A Ramos"><span class="abbr" title="Alejandro A Ramos">A A Ramos</span></abbr></td>
+<td class="default" align="center">17</td>
+<td class="default" align="center">3</td>
+<td CLASS="default">TBA</td>
+<td CLASS="default">TBA</td>
+<td CLASS="default"><abbr title="Online Online Asynchronous"><span class="abbr" title="Online Online Asynchronous">ONLINE ASYNC</span></abbr></td>
+<td CLASS="default">08/21-12/15</td>
+</tr>
+<tr>
+<td colspan="13">
+Prerequisites: Placed in ENG 100 and MATH 103 placement or higher STEM; or consent of instructor.<br>Recommended preparation: ICS 100 or ICS 101.<br>Purchase of an online access code for course materials is required.<br>Students will be contacted at their UH email address by their instructor prior to the first day of class.
+</td>
+</tr>
+<!-- sect_rec: i 'LEE', term: '202410', ssbsect_crn: '54290', ssrmeet: '54290' -->
+<!-- pt. a -->
+<!-- pt. b -->
+<!-- pt. c -->
+<!-- pt. d -->
+<!-- pt. e -->
+<!-- pt. f -->
+<!-- pt. g -->
+<tr class="odd">
+<td CLASS="default">&nbsp;</td>
+<!-- pt. h -->
+<td CLASS="default"><a href="./avail.class?i=LEE&t=202410&c=54290">54290</a></td>
+<td nowrap="nowrap" CLASS="default">ICS 129</td>
+<td CLASS="default">0</td>
+<!-- ssrmeet_array_length = 0 -->
+<!-- ssrmeet_array_length = 1 -->
+<!-- comment_text=Access to a Windows PC with Internet access is required.<br><br>This section will be participating in Leeward Community College Bookstore's program, IDAP.  For more information, please check the bookstore's textbook listing and IDAP FAQ page at www.bookstore.hawaii.edu/lcc.<br><br>Students will be contacted at their UH email address by their instructor prior to the first day of class. -->
+<td CLASS="default">Introduction to Databases</td>
+<td CLASS="default">3</td>
+<td CLASS="default"><abbr title="Thomas D Burns"><span class="abbr" title="Thomas D Burns">T D Burns</span></abbr></td>
+<td class="default" align="center">5</td>
+<td class="default" align="center">1</td>
+<td CLASS="default">M</td>
+<td nowrap="nowrap" CLASS="default">1200-<spacer />0115p</td>
+<td CLASS="default"><abbr title="Biological Science Classroom 105"><span class="abbr" title="Biological Science Classroom 105">BS 105</span></abbr></td>
+<td CLASS="default">08/21-12/15</td>
+</tr>
+<tr class="odd">
+<td colspan="13">
+Access to a Windows PC with Internet access is required.<br><br>This section will be participating in Leeward Community College Bookstore's program, IDAP.  For more information, please check the bookstore's textbook listing and IDAP FAQ page at www.bookstore.hawaii.edu/lcc.<br><br>Students will be contacted at their UH email address by their instructor prior to the first day of class.
+</td>
+</tr>
+<!-- sect_rec: i 'LEE', term: '202410', ssbsect_crn: '54291', ssrmeet: '54291' -->
+<!-- pt. a -->
+<!-- pt. b -->
+<!-- pt. c -->
+<!-- pt. d -->
+<!-- pt. e -->
+<!-- pt. f -->
+<!-- pt. g -->
+<tr>
+<td CLASS="default">&nbsp;</td>
+<!-- pt. h -->
+<td CLASS="default"><a href="./avail.class?i=LEE&t=202410&c=54291">54291</a></td>
+<td nowrap="nowrap" CLASS="default">ICS 129</td>
+<td CLASS="default">0</td>
+<!-- ssrmeet_array_length = 0 -->
+<!-- ssrmeet_array_length = 1 -->
+<!-- comment_text=Access to a Windows PC with Internet access is required.<br><br>This section will be participating in Leeward Community College Bookstore's program, IDAP.  For more information, please check the bookstore's textbook listing and IDAP FAQ page at www.bookstore.hawaii.edu/lcc.<br><br>Students will be contacted at their UH email address by their instructor prior to the first day of class. -->
+<td CLASS="default">Introduction to Databases</td>
+<td CLASS="default">3</td>
+<td CLASS="default"><abbr title="Thomas D Burns"><span class="abbr" title="Thomas D Burns">T D Burns</span></abbr></td>
+<td class="default" align="center">14</td>
+<td class="default" align="center">1</td>
+<td CLASS="default">TBA</td>
+<td CLASS="default">TBA</td>
+<td CLASS="default"><abbr title="Online Online Asynchronous"><span class="abbr" title="Online Online Asynchronous">ONLINE ASYNC</span></abbr></td>
+<td CLASS="default">08/21-12/15</td>
+</tr>
+<tr>
+<td colspan="13">
+Access to a Windows PC with Internet access is required.<br><br>This section will be participating in Leeward Community College Bookstore's program, IDAP.  For more information, please check the bookstore's textbook listing and IDAP FAQ page at www.bookstore.hawaii.edu/lcc.<br><br>Students will be contacted at their UH email address by their instructor prior to the first day of class.
+</td>
+</tr>
+<!-- sect_rec: i 'LEE', term: '202410', ssbsect_crn: '54338', ssrmeet: '54338' -->
+<!-- pt. a -->
+<!-- pt. b -->
+<!-- pt. c -->
+<!-- pt. d -->
+<!-- pt. e -->
+<!-- pt. f -->
+<!-- pt. g -->
+<tr class="odd">
+<td CLASS="default">&nbsp;</td>
+<!-- pt. h -->
+<td CLASS="default"><a href="./avail.class?i=LEE&t=202410&c=54338">54338</a></td>
+<td nowrap="nowrap" CLASS="default">ICS 129</td>
+<td CLASS="default">0</td>
+<!-- ssrmeet_array_length = 0 -->
+<!-- ssrmeet_array_length = 1 -->
+<!-- comment_text=Access to a Windows PC with Internet access is required.<br><br>This section will be participating in Leeward Community College Bookstore's program, IDAP.  For more information, please check the bookstore's textbook listing and IDAP FAQ page at www.bookstore.hawaii.edu/lcc.<br><br>Students will be contacted at their UH email address by their instructor prior to the first day of class. -->
+<td CLASS="default">Introduction to Databases</td>
+<td CLASS="default">3</td>
+<td CLASS="default"><abbr title="Thomas D Burns"><span class="abbr" title="Thomas D Burns">T D Burns</span></abbr></td>
+<td class="default" align="center">17</td>
+<td class="default" align="center">3</td>
+<td CLASS="default">TBA</td>
+<td CLASS="default">TBA</td>
+<td CLASS="default"><abbr title="Online Online Asynchronous"><span class="abbr" title="Online Online Asynchronous">ONLINE ASYNC</span></abbr></td>
+<td CLASS="default">08/21-12/15</td>
+</tr>
+<tr class="odd">
+<td colspan="13">
+Access to a Windows PC with Internet access is required.<br><br>This section will be participating in Leeward Community College Bookstore's program, IDAP.  For more information, please check the bookstore's textbook listing and IDAP FAQ page at www.bookstore.hawaii.edu/lcc.<br><br>Students will be contacted at their UH email address by their instructor prior to the first day of class.
+</td>
+</tr>
+<!-- sect_rec: i 'LEE', term: '202410', ssbsect_crn: '54943', ssrmeet: '54943' -->
+<!-- pt. a -->
+<!-- pt. b -->
+<!-- pt. c -->
+<!-- pt. d -->
+<!-- pt. e -->
+<!-- pt. f -->
+<!-- pt. g -->
+<tr>
+<td CLASS="default">&nbsp;</td>
+<!-- pt. h -->
+<td CLASS="default"><a href="./avail.class?i=LEE&t=202410&c=54943">54943</a></td>
+<td nowrap="nowrap" CLASS="default">ICS 129</td>
+<td CLASS="default">0</td>
+<!-- ssrmeet_array_length = 0 -->
+<!-- ssrmeet_array_length = 1 -->
+<!-- comment_text=Access to a Windows PC with Internet access is required.<br><br>This section will be participating in Leeward Community College Bookstore's program, IDAP.  For more information, please check the bookstore's textbook listing and IDAP FAQ page at www.bookstore.hawaii.edu/lcc.<br><br>Students will be contacted at their UH email address by their instructor prior to the first day of class. -->
+<td CLASS="default">Introduction to Databases</td>
+<td CLASS="default">3</td>
+<td CLASS="default"><abbr title="Angie Nguyen"><span class="abbr" title="Angie Nguyen">A Nguyen</span></abbr></td>
+<td class="default" align="center">19</td>
+<td class="default" align="center">1</td>
+<td CLASS="default">TBA</td>
+<td CLASS="default">TBA</td>
+<td CLASS="default"><abbr title="Online Online Asynchronous"><span class="abbr" title="Online Online Asynchronous">ONLINE ASYNC</span></abbr></td>
+<td CLASS="default">08/21-12/15</td>
+</tr>
+<tr>
+<td colspan="13">
+Access to a Windows PC with Internet access is required.<br><br>This section will be participating in Leeward Community College Bookstore's program, IDAP.  For more information, please check the bookstore's textbook listing and IDAP FAQ page at www.bookstore.hawaii.edu/lcc.<br><br>Students will be contacted at their UH email address by their instructor prior to the first day of class.
+</td>
+</tr>
+<!-- sect_rec: i 'LEE', term: '202410', ssbsect_crn: '54677', ssrmeet: '54677' -->
+<!-- pt. a -->
+<!-- pt. b -->
+<!-- pt. c -->
+<!-- pt. d -->
+<!-- pt. e -->
+<!-- pt. f -->
+<!-- pt. g -->
+<tr class="odd">
+<td CLASS="default">TXT0</td>
+<!-- pt. h -->
+<td CLASS="default"><a href="./avail.class?i=LEE&t=202410&c=54677">54677</a></td>
+<td nowrap="nowrap" CLASS="default">ICS 131</td>
+<td CLASS="default">0</td>
+<!-- ssrmeet_array_length = 0 -->
+<!-- ssrmeet_array_length = 1 -->
+<!-- comment_text=Textbook Cost: $0<br>Prerequisite: ICS 184 with a grade of C or better or consent of instructor.<br>Students will be contacted at their UH email address by their instructor prior to the first day of class. -->
+<td CLASS="default">Intro to Virtualization</td>
+<td CLASS="default">3</td>
+<td CLASS="default"><abbr title="Petersen W Gross"><span class="abbr" title="Petersen W Gross">P W Gross</span></abbr></td>
+<td class="default" align="center">5</td>
+<td class="default" align="center">0</td>
+<td CLASS="default">W</td>
+<td nowrap="nowrap" CLASS="default">0900-<spacer />1015a</td>
+<td CLASS="default"><abbr title="Biological Science Room 107"><span class="abbr" title="Biological Science Room 107">BS 107</span></abbr></td>
+<td CLASS="default">08/21-12/15</td>
+</tr>
+<tr class="odd">
+<td colspan="13">
+Textbook Cost: $0<br>Prerequisite: ICS 184 with a grade of C or better or consent of instructor.<br>Students will be contacted at their UH email address by their instructor prior to the first day of class.
+</td>
+</tr>
+<!-- sect_rec: i 'LEE', term: '202410', ssbsect_crn: '54781', ssrmeet: '54781' -->
+<!-- pt. a -->
+<!-- pt. b -->
+<!-- pt. c -->
+<!-- pt. d -->
+<!-- pt. e -->
+<!-- pt. f -->
+<!-- pt. g -->
+<tr>
+<td CLASS="default">TXT0</td>
+<!-- pt. h -->
+<td CLASS="default"><a href="./avail.class?i=LEE&t=202410&c=54781">54781</a></td>
+<td nowrap="nowrap" CLASS="default">ICS 131</td>
+<td CLASS="default">0</td>
+<!-- ssrmeet_array_length = 0 -->
+<!-- ssrmeet_array_length = 1 -->
+<!-- comment_text=Textbook Cost: $0.<br>Prerequisite: ICS 184 with a grade of C or better or consent of instructor.<br>Students will be contacted at their UH email address by their instructor prior to the first day of class. -->
+<td CLASS="default">Intro to Virtualization</td>
+<td CLASS="default">3</td>
+<td CLASS="default"><abbr title="Petersen W Gross"><span class="abbr" title="Petersen W Gross">P W Gross</span></abbr></td>
+<td class="default" align="center">15</td>
+<td class="default" align="center">0</td>
+<td CLASS="default">TBA</td>
+<td CLASS="default">TBA</td>
+<td CLASS="default"><abbr title="Online Online Asynchronous"><span class="abbr" title="Online Online Asynchronous">ONLINE ASYNC</span></abbr></td>
+<td CLASS="default">08/21-12/15</td>
+</tr>
+<tr>
+<td colspan="13">
+Textbook Cost: $0.<br>Prerequisite: ICS 184 with a grade of C or better or consent of instructor.<br>Students will be contacted at their UH email address by their instructor prior to the first day of class.
+</td>
+</tr>
+<!-- sect_rec: i 'LEE', term: '202410', ssbsect_crn: '54146', ssrmeet: '54146' -->
+<!-- pt. a -->
+<!-- pt. b -->
+<!-- pt. c -->
+<!-- pt. d -->
+<!-- pt. e -->
+<!-- pt. f -->
+<!-- pt. g -->
+<tr class="odd">
+<td CLASS="default">FQ,TXT0</td>
+<!-- pt. h -->
+<td CLASS="default"><a href="./avail.class?i=LEE&t=202410&c=54146">54146</a></td>
+<td nowrap="nowrap" CLASS="default">ICS 141</td>
+<td CLASS="default">0</td>
+<!-- ssrmeet_array_length = 0 -->
+<!-- ssrmeet_array_length = 1 -->
+<!-- comment_text=Textbook Cost: $0.<br>Prerequisites: Placement in MATH 135 or consent of instructor.<br><br>Students will be contacted at their UH email address by their instructor prior to the first day of class. -->
+<td CLASS="default">Disc Math for Comp Sci I</td>
+<td CLASS="default">3</td>
+<td CLASS="default"><abbr title="Michael J Bauer"><span class="abbr" title="Michael J Bauer">M J Bauer</span></abbr></td>
+<td class="default" align="center">5</td>
+<td class="default" align="center">0</td>
+<td CLASS="default">R</td>
+<td nowrap="nowrap" CLASS="default">0900-<spacer />1015a</td>
+<td CLASS="default"><abbr title="Biological Science Classroom 105"><span class="abbr" title="Biological Science Classroom 105">BS 105</span></abbr></td>
+<td CLASS="default">08/21-12/15</td>
+</tr>
+<tr class="odd">
+<td colspan="13">
+Textbook Cost: $0.<br>Prerequisites: Placement in MATH 135 or consent of instructor.<br><br>Students will be contacted at their UH email address by their instructor prior to the first day of class.
+</td>
+</tr>
+<!-- sect_rec: i 'LEE', term: '202410', ssbsect_crn: '54185', ssrmeet: '54185' -->
+<!-- pt. a -->
+<!-- pt. b -->
+<!-- pt. c -->
+<!-- pt. d -->
+<!-- pt. e -->
+<!-- pt. f -->
+<!-- pt. g -->
+<tr>
+<td CLASS="default">FQ,TXT0</td>
+<!-- pt. h -->
+<td CLASS="default"><a href="./avail.class?i=LEE&t=202410&c=54185">54185</a></td>
+<td nowrap="nowrap" CLASS="default">ICS 141</td>
+<td CLASS="default">0</td>
+<!-- ssrmeet_array_length = 0 -->
+<!-- ssrmeet_array_length = 1 -->
+<!-- comment_text=Textbook Cost: $0.<br>Prerequisites: Placement in MATH 135 or consent of instructor.<br><br>Students will be contacted at their UH email address by their instructor prior to the first day of class. -->
+<td CLASS="default">Disc Math for Comp Sci I</td>
+<td CLASS="default">3</td>
+<td CLASS="default"><abbr title="Michael J Bauer"><span class="abbr" title="Michael J Bauer">M J Bauer</span></abbr></td>
+<td class="default" align="center">15</td>
+<td class="default" align="center">0</td>
+<td CLASS="default">TBA</td>
+<td CLASS="default">TBA</td>
+<td CLASS="default"><abbr title="Online Online Asynchronous"><span class="abbr" title="Online Online Asynchronous">ONLINE ASYNC</span></abbr></td>
+<td CLASS="default">08/21-12/15</td>
+</tr>
+<tr>
+<td colspan="13">
+Textbook Cost: $0.<br>Prerequisites: Placement in MATH 135 or consent of instructor.<br><br>Students will be contacted at their UH email address by their instructor prior to the first day of class.
+</td>
+</tr>
+<!-- sect_rec: i 'LEE', term: '202410', ssbsect_crn: '54673', ssrmeet: '54673' -->
+<!-- pt. a -->
+<!-- pt. b -->
+<!-- pt. c -->
+<!-- pt. d -->
+<!-- pt. e -->
+<!-- pt. f -->
+<!-- pt. g -->
+<tr class="odd">
+<td CLASS="default">FQ,TXT0</td>
+<!-- pt. h -->
+<td CLASS="default"><a href="./avail.class?i=LEE&t=202410&c=54673">54673</a></td>
+<td nowrap="nowrap" CLASS="default">ICS 141</td>
+<td CLASS="default">0</td>
+<!-- ssrmeet_array_length = 0 -->
+<!-- ssrmeet_array_length = 1 -->
+<!-- comment_text=Textbook Cost: $0.<br>Prerequisites: Placement in MATH 135 or consent of instructor.<br><br>Students will be contacted at their UH email address by their instructor prior to the first day of class. -->
+<td CLASS="default">Disc Math for Comp Sci I</td>
+<td CLASS="default">3</td>
+<td CLASS="default"><abbr title="Michael J Bauer"><span class="abbr" title="Michael J Bauer">M J Bauer</span></abbr></td>
+<td class="default" align="center">20</td>
+<td class="default" align="center">0</td>
+<td CLASS="default">TBA</td>
+<td CLASS="default">TBA</td>
+<td CLASS="default"><abbr title="Online Online Asynchronous"><span class="abbr" title="Online Online Asynchronous">ONLINE ASYNC</span></abbr></td>
+<td CLASS="default">08/21-12/15</td>
+</tr>
+<tr class="odd">
+<td colspan="13">
+Textbook Cost: $0.<br>Prerequisites: Placement in MATH 135 or consent of instructor.<br><br>Students will be contacted at their UH email address by their instructor prior to the first day of class.
+</td>
+</tr>
+<!-- sect_rec: i 'LEE', term: '202410', ssbsect_crn: '55177', ssrmeet: '55177' -->
+<!-- pt. a -->
+<!-- pt. b -->
+<!-- pt. c -->
+<!-- pt. d -->
+<!-- pt. e -->
+<!-- pt. f -->
+<!-- pt. g -->
+<tr>
+<td CLASS="default">FQ,TXT0</td>
+<!-- pt. h -->
+<td CLASS="default"><a href="./avail.class?i=LEE&t=202410&c=55177">55177</a></td>
+<td nowrap="nowrap" CLASS="default">ICS 141</td>
+<td CLASS="default">0</td>
+<!-- ssrmeet_array_length = 0 -->
+<!-- ssrmeet_array_length = 1 -->
+<!-- comment_text=Textbook Cost: $0.<br>Prerequisites: Placement in MATH 135 or consent of instructor.<br><br>Students will be contacted at their UH email address by their instructor prior to the first day of class. -->
+<td CLASS="default">Disc Math for Comp Sci I</td>
+<td CLASS="default">3</td>
+<td CLASS="default"><abbr title="Thomas D Burns"><span class="abbr" title="Thomas D Burns">T D Burns</span></abbr></td>
+<td class="default" align="center">19</td>
+<td class="default" align="center">1</td>
+<td CLASS="default">TBA</td>
+<td CLASS="default">TBA</td>
+<td CLASS="default"><abbr title="Online Online Asynchronous"><span class="abbr" title="Online Online Asynchronous">ONLINE ASYNC</span></abbr></td>
+<td CLASS="default">08/21-12/15</td>
+</tr>
+<tr>
+<td colspan="13">
+Textbook Cost: $0.<br>Prerequisites: Placement in MATH 135 or consent of instructor.<br><br>Students will be contacted at their UH email address by their instructor prior to the first day of class.
+</td>
+</tr>
+<!-- sect_rec: i 'LEE', term: '202410', ssbsect_crn: '54147', ssrmeet: '54147' -->
+<!-- pt. a -->
+<!-- pt. b -->
+<!-- pt. c -->
+<!-- pt. d -->
+<!-- pt. e -->
+<!-- pt. f -->
+<!-- pt. g -->
+<tr class="odd">
+<td CLASS="default">DH,ETH,WI</td>
+<!-- pt. h -->
+<td CLASS="default"><a href="./avail.class?i=LEE&t=202410&c=54147">54147</a></td>
+<td nowrap="nowrap" CLASS="default">ICS 170</td>
+<td CLASS="default">0</td>
+<!-- ssrmeet_array_length = 0 -->
+<!-- ssrmeet_array_length = 1 -->
+<!-- comment_text=Prerequisite: ENG 100 or equivalent with a grade of C or higher.<br><br>This section will be participating in Leeward Community College Bookstore's program, IDAP.  For more information, please check the bookstore's textbook listing and IDAP FAQ page at www.bookstore.hawaii.edu/lcc.<br><br>Students will be contacted at their UH email address by their instructor prior to the first day of class.<br> -->
+<td CLASS="default">WI-E-Ethics for Digital World</td>
+<td CLASS="default">3</td>
+<td CLASS="default"><abbr title="Nikki D Manuel"><span class="abbr" title="Nikki D Manuel">N D Manuel</span></abbr></td>
+<td class="default" align="center">5</td>
+<td class="default" align="center">2</td>
+<td CLASS="default">M</td>
+<td nowrap="nowrap" CLASS="default">1030-<spacer />1145a</td>
+<td CLASS="default"><abbr title="Biological Science Classroom 105"><span class="abbr" title="Biological Science Classroom 105">BS 105</span></abbr></td>
+<td CLASS="default">08/21-12/15</td>
+</tr>
+<tr class="odd">
+<td colspan="13">
+Prerequisite: ENG 100 or equivalent with a grade of C or higher.<br><br>This section will be participating in Leeward Community College Bookstore's program, IDAP.  For more information, please check the bookstore's textbook listing and IDAP FAQ page at www.bookstore.hawaii.edu/lcc.<br><br>Students will be contacted at their UH email address by their instructor prior to the first day of class.<br>
+</td>
+</tr>
+<!-- sect_rec: i 'LEE', term: '202410', ssbsect_crn: '54248', ssrmeet: '54248' -->
+<!-- pt. a -->
+<!-- pt. b -->
+<!-- pt. c -->
+<!-- pt. d -->
+<!-- pt. e -->
+<!-- pt. f -->
+<!-- pt. g -->
+<tr>
+<td CLASS="default">DH,ETH,WI</td>
+<!-- pt. h -->
+<td CLASS="default"><a href="./avail.class?i=LEE&t=202410&c=54248">54248</a></td>
+<td nowrap="nowrap" CLASS="default">ICS 170</td>
+<td CLASS="default">0</td>
+<!-- ssrmeet_array_length = 0 -->
+<!-- ssrmeet_array_length = 1 -->
+<!-- comment_text=Prerequisite: ENG 100 or equivalent with a grade of C or higher.<br><br>This section will be participating in Leeward Community College Bookstore's program, IDAP.  For more information, please check the bookstore's textbook listing and IDAP FAQ page at www.bookstore.hawaii.edu/lcc.<br><br>Students will be contacted at their UH email address by their instructor prior to the first day of class.<br> -->
+<td CLASS="default">WI-E-Ethics for Digital World</td>
+<td CLASS="default">3</td>
+<td CLASS="default"><abbr title="Nikki D Manuel"><span class="abbr" title="Nikki D Manuel">N D Manuel</span></abbr></td>
+<td class="default" align="center">13</td>
+<td class="default" align="center">2</td>
+<td CLASS="default">TBA</td>
+<td CLASS="default">TBA</td>
+<td CLASS="default"><abbr title="Online Online Asynchronous"><span class="abbr" title="Online Online Asynchronous">ONLINE ASYNC</span></abbr></td>
+<td CLASS="default">08/21-12/15</td>
+</tr>
+<tr>
+<td colspan="13">
+Prerequisite: ENG 100 or equivalent with a grade of C or higher.<br><br>This section will be participating in Leeward Community College Bookstore's program, IDAP.  For more information, please check the bookstore's textbook listing and IDAP FAQ page at www.bookstore.hawaii.edu/lcc.<br><br>Students will be contacted at their UH email address by their instructor prior to the first day of class.<br>
+</td>
+</tr>
+<!-- sect_rec: i 'LEE', term: '202410', ssbsect_crn: '54249', ssrmeet: '54249' -->
+<!-- pt. a -->
+<!-- pt. b -->
+<!-- pt. c -->
+<!-- pt. d -->
+<!-- pt. e -->
+<!-- pt. f -->
+<!-- pt. g -->
+<tr class="odd">
+<td CLASS="default">DH,ETH</td>
+<!-- pt. h -->
+<td CLASS="default"><a href="./avail.class?i=LEE&t=202410&c=54249">54249</a></td>
+<td nowrap="nowrap" CLASS="default">ICS 170</td>
+<td CLASS="default">0</td>
+<!-- ssrmeet_array_length = 0 -->
+<!-- ssrmeet_array_length = 1 -->
+<!-- comment_text=This section will be participating in Leeward Community College Bookstore's program, IDAP.  For more information, please check the bookstore's textbook listing and IDAP FAQ page at www.bookstore.hawaii.edu/lcc.<br><br>Students will be contacted at their UH email address by their instructor prior to the first day of class.<br> -->
+<td CLASS="default">E-Ethics for Digital World</td>
+<td CLASS="default">3</td>
+<td CLASS="default"><abbr title="Eden Patterson"><span class="abbr" title="Eden Patterson">E Patterson</span></abbr></td>
+<td class="default" align="center">16</td>
+<td class="default" align="center">4</td>
+<td CLASS="default">TBA</td>
+<td CLASS="default">TBA</td>
+<td CLASS="default"><abbr title="Online Online Asynchronous"><span class="abbr" title="Online Online Asynchronous">ONLINE ASYNC</span></abbr></td>
+<td CLASS="default">08/21-12/15</td>
+</tr>
+<tr class="odd">
+<td colspan="13">
+This section will be participating in Leeward Community College Bookstore's program, IDAP.  For more information, please check the bookstore's textbook listing and IDAP FAQ page at www.bookstore.hawaii.edu/lcc.<br><br>Students will be contacted at their UH email address by their instructor prior to the first day of class.<br>
+</td>
+</tr>
+<!-- sect_rec: i 'LEE', term: '202410', ssbsect_crn: '54463', ssrmeet: '54463' -->
+<!-- pt. a -->
+<!-- pt. b -->
+<!-- pt. c -->
+<!-- pt. d -->
+<!-- pt. e -->
+<!-- pt. f -->
+<!-- pt. g -->
+<tr>
+<td CLASS="default">DH,ETH</td>
+<!-- pt. h -->
+<td CLASS="default"><a href="./avail.class?i=LEE&t=202410&c=54463">54463</a></td>
+<td nowrap="nowrap" CLASS="default">ICS 170</td>
+<td CLASS="default">0</td>
+<!-- ssrmeet_array_length = 0 -->
+<!-- ssrmeet_array_length = 1 -->
+<!-- comment_text=This section will be participating in Leeward Community College Bookstore's program, IDAP.  For more information, please check the bookstore's textbook listing and IDAP FAQ page at www.bookstore.hawaii.edu/lcc.<br><br>Students will be contacted at their UH email address by their instructor prior to the first day of class.<br> -->
+<td CLASS="default">E-Ethics for Digital World</td>
+<td CLASS="default">3</td>
+<td CLASS="default"><abbr title="Matthew W McAndrew"><span class="abbr" title="Matthew W McAndrew">M W McAndrew</span></abbr></td>
+<td class="default" align="center">19</td>
+<td class="default" align="center">1</td>
+<td CLASS="default">TBA</td>
+<td CLASS="default">TBA</td>
+<td CLASS="default"><abbr title="Online Online Asynchronous"><span class="abbr" title="Online Online Asynchronous">ONLINE ASYNC</span></abbr></td>
+<td CLASS="default">08/21-12/15</td>
+</tr>
+<tr>
+<td colspan="13">
+This section will be participating in Leeward Community College Bookstore's program, IDAP.  For more information, please check the bookstore's textbook listing and IDAP FAQ page at www.bookstore.hawaii.edu/lcc.<br><br>Students will be contacted at their UH email address by their instructor prior to the first day of class.<br>
+</td>
+</tr>
+<!-- sect_rec: i 'LEE', term: '202410', ssbsect_crn: '54535', ssrmeet: '54535' -->
+<!-- pt. a -->
+<!-- pt. b -->
+<!-- pt. c -->
+<!-- pt. d -->
+<!-- pt. e -->
+<!-- pt. f -->
+<!-- pt. g -->
+<tr class="odd">
+<td CLASS="default">DH,ETH</td>
+<!-- pt. h -->
+<td CLASS="default"><a href="./avail.class?i=LEE&t=202410&c=54535">54535</a></td>
+<td nowrap="nowrap" CLASS="default">ICS 170</td>
+<td CLASS="default">0</td>
+<!-- ssrmeet_array_length = 0 -->
+<!-- ssrmeet_array_length = 1 -->
+<!-- comment_text=This section will be participating in Leeward Community College Bookstore's program, IDAP.  For more information, please check the bookstore's textbook listing and IDAP FAQ page at www.bookstore.hawaii.edu/lcc.<br><br>Students will be contacted at their UH email address by their instructor prior to the first day of class.<br><br> -->
+<td CLASS="default">E-Ethics for Digital World</td>
+<td CLASS="default">3</td>
+<td CLASS="default"><abbr title="Robert K Sanpei"><span class="abbr" title="Robert K Sanpei">R K Sanpei</span></abbr></td>
+<td class="default" align="center">20</td>
+<td class="default" align="center">0</td>
+<td CLASS="default">TBA</td>
+<td CLASS="default">TBA</td>
+<td CLASS="default"><abbr title="Online Online Asynchronous"><span class="abbr" title="Online Online Asynchronous">ONLINE ASYNC</span></abbr></td>
+<td CLASS="default">08/21-12/15</td>
+</tr>
+<tr class="odd">
+<td colspan="13">
+This section will be participating in Leeward Community College Bookstore's program, IDAP.  For more information, please check the bookstore's textbook listing and IDAP FAQ page at www.bookstore.hawaii.edu/lcc.<br><br>Students will be contacted at their UH email address by their instructor prior to the first day of class.<br><br>
+</td>
+</tr>
+<!-- sect_rec: i 'LEE', term: '202410', ssbsect_crn: '54779', ssrmeet: '54779' -->
+<!-- pt. a -->
+<!-- pt. b -->
+<!-- pt. c -->
+<!-- pt. d -->
+<!-- pt. e -->
+<!-- pt. f -->
+<!-- pt. g -->
+<tr>
+<td CLASS="default">DH,ETH</td>
+<!-- pt. h -->
+<td CLASS="default"><a href="./avail.class?i=LEE&t=202410&c=54779">54779</a></td>
+<td nowrap="nowrap" CLASS="default">ICS 170</td>
+<td CLASS="default">0</td>
+<!-- ssrmeet_array_length = 0 -->
+<!-- ssrmeet_array_length = 1 -->
+<!-- comment_text=This section will be participating in Leeward Community College Bookstore's program, IDAP.  For more information, please check the bookstore's textbook listing and IDAP FAQ page at www.bookstore.hawaii.edu/lcc.<br><br>Students will be contacted at their UH email address by their instructor prior to the first day of class.<br><br> -->
+<td CLASS="default">E-Ethics for Digital World</td>
+<td CLASS="default">3</td>
+<td CLASS="default"><abbr title="Nikki D Manuel"><span class="abbr" title="Nikki D Manuel">N D Manuel</span></abbr></td>
+<td class="default" align="center">18</td>
+<td class="default" align="center">2</td>
+<td CLASS="default">TBA</td>
+<td CLASS="default">TBA</td>
+<td CLASS="default"><abbr title="Online Online Asynchronous"><span class="abbr" title="Online Online Asynchronous">ONLINE ASYNC</span></abbr></td>
+<td CLASS="default">08/21-12/15</td>
+</tr>
+<tr>
+<td colspan="13">
+This section will be participating in Leeward Community College Bookstore's program, IDAP.  For more information, please check the bookstore's textbook listing and IDAP FAQ page at www.bookstore.hawaii.edu/lcc.<br><br>Students will be contacted at their UH email address by their instructor prior to the first day of class.<br><br>
+</td>
+</tr>
+<!-- sect_rec: i 'LEE', term: '202410', ssbsect_crn: '54288', ssrmeet: '54288' -->
+<!-- pt. a -->
+<!-- pt. b -->
+<!-- pt. c -->
+<!-- pt. d -->
+<!-- pt. e -->
+<!-- pt. f -->
+<!-- pt. g -->
+<tr class="odd">
+<td CLASS="default">TXT0</td>
+<!-- pt. h -->
+<td CLASS="default"><a href="./avail.class?i=LEE&t=202410&c=54288">54288</a></td>
+<td nowrap="nowrap" CLASS="default">ICS 171</td>
+<td CLASS="default">0</td>
+<!-- ssrmeet_array_length = 0 -->
+<!-- ssrmeet_array_length = 1 -->
+<!-- comment_text=Textbook Cost: $0.<br>Prerequisite: ICS 184 with a C or better, or concurrent enrollment, or consent of the instructor. Recommended Preparation: ICS 170.<br><br>Students will be contacted at their UH email address by their instructor prior to the first day of class. -->
+<td CLASS="default">Intro Computer Security</td>
+<td CLASS="default">3</td>
+<td CLASS="default"><abbr title="William M Albritton"><span class="abbr" title="William M Albritton">W M Albritton</span></abbr></td>
+<td class="default" align="center">9</td>
+<td class="default" align="center">11</td>
+<td CLASS="default">TR</td>
+<td nowrap="nowrap" CLASS="default">0130-<spacer />0245p</td>
+<td CLASS="default"><abbr title="Biological Science Classroom 105"><span class="abbr" title="Biological Science Classroom 105">BS 105</span></abbr></td>
+<td CLASS="default">08/21-12/15</td>
+</tr>
+<tr class="odd">
+<td colspan="13">
+Textbook Cost: $0.<br>Prerequisite: ICS 184 with a C or better, or concurrent enrollment, or consent of the instructor. Recommended Preparation: ICS 170.<br><br>Students will be contacted at their UH email address by their instructor prior to the first day of class.
+</td>
+</tr>
+<!-- sect_rec: i 'LEE', term: '202410', ssbsect_crn: '54339', ssrmeet: '54339' -->
+<!-- pt. a -->
+<!-- pt. b -->
+<!-- pt. c -->
+<!-- pt. d -->
+<!-- pt. e -->
+<!-- pt. f -->
+<!-- pt. g -->
+<tr>
+<td CLASS="default">TXT0</td>
+<!-- pt. h -->
+<td CLASS="default"><a href="./avail.class?i=LEE&t=202410&c=54339">54339</a></td>
+<td nowrap="nowrap" CLASS="default">ICS 171</td>
+<td CLASS="default">0</td>
+<!-- ssrmeet_array_length = 0 -->
+<!-- ssrmeet_array_length = 1 -->
+<!-- comment_text=Textbook Cost: $0.<br>Prerequisite: ICS 184 with a C or better, or concurrent enrollment, or consent of the instructor. Recommended Preparation: ICS 170.<br>Students will be contacted at their UH email address by their instructor prior to the first day of class.<br><br>Synchronous meetings at currently scheduled days and times, TR 1:30 - 2:45 pm.<br><br> -->
+<td CLASS="default">Intro Computer Security</td>
+<td CLASS="default">3</td>
+<td CLASS="default"><abbr title="William M Albritton"><span class="abbr" title="William M Albritton">W M Albritton</span></abbr></td>
+<td class="default" align="center">8</td>
+<td class="default" align="center">7</td>
+<td CLASS="default">TR</td>
+<td nowrap="nowrap" CLASS="default">0130-<spacer />0245p</td>
+<td CLASS="default"><abbr title="Online Online Synchronous"><span class="abbr" title="Online Online Synchronous">ONLINE SYNC</span></abbr></td>
+<td CLASS="default">08/21-12/15</td>
+</tr>
+<tr>
+<td colspan="13">
+Textbook Cost: $0.<br>Prerequisite: ICS 184 with a C or better, or concurrent enrollment, or consent of the instructor. Recommended Preparation: ICS 170.<br>Students will be contacted at their UH email address by their instructor prior to the first day of class.<br><br>Synchronous meetings at currently scheduled days and times, TR 1:30 - 2:45 pm.<br><br>
+</td>
+</tr>
+<!-- sect_rec: i 'LEE', term: '202410', ssbsect_crn: '54536', ssrmeet: '54536' -->
+<!-- pt. a -->
+<!-- pt. b -->
+<!-- pt. c -->
+<!-- pt. d -->
+<!-- pt. e -->
+<!-- pt. f -->
+<!-- pt. g -->
+<tr class="odd">
+<td CLASS="default">TXT0</td>
+<!-- pt. h -->
+<td CLASS="default"><a href="./avail.class?i=LEE&t=202410&c=54536">54536</a></td>
+<td nowrap="nowrap" CLASS="default">ICS 171</td>
+<td CLASS="default">0</td>
+<!-- ssrmeet_array_length = 0 -->
+<!-- ssrmeet_array_length = 1 -->
+<!-- comment_text=Textbook Cost: $0.<br>Prerequisite: ICS 184 with a C or better, or concurrent enrollment, or consent of the instructor. Recommended Preparation: ICS 170.<br><br>Students will be contacted at their UH email address by their instructor prior to the first day of class. -->
+<td CLASS="default">Intro Computer Security</td>
+<td CLASS="default">3</td>
+<td CLASS="default"><abbr title="William M Albritton"><span class="abbr" title="William M Albritton">W M Albritton</span></abbr></td>
+<td class="default" align="center">17</td>
+<td class="default" align="center">3</td>
+<td CLASS="default">TBA</td>
+<td CLASS="default">TBA</td>
+<td CLASS="default"><abbr title="Online Online Asynchronous"><span class="abbr" title="Online Online Asynchronous">ONLINE ASYNC</span></abbr></td>
+<td CLASS="default">08/21-12/15</td>
+</tr>
+<tr class="odd">
+<td colspan="13">
+Textbook Cost: $0.<br>Prerequisite: ICS 184 with a C or better, or concurrent enrollment, or consent of the instructor. Recommended Preparation: ICS 170.<br><br>Students will be contacted at their UH email address by their instructor prior to the first day of class.
+</td>
+</tr>
+<!-- sect_rec: i 'LEE', term: '202410', ssbsect_crn: '54675', ssrmeet: '54675' -->
+<!-- pt. a -->
+<!-- pt. b -->
+<!-- pt. c -->
+<!-- pt. d -->
+<!-- pt. e -->
+<!-- pt. f -->
+<!-- pt. g -->
+<tr>
+<td CLASS="default">TXT0</td>
+<!-- pt. h -->
+<td CLASS="default"><a href="./avail.class?i=LEE&t=202410&c=54675">54675</a></td>
+<td nowrap="nowrap" CLASS="default">ICS 171</td>
+<td CLASS="default">0</td>
+<!-- ssrmeet_array_length = 0 -->
+<!-- ssrmeet_array_length = 1 -->
+<!-- comment_text=Textbook Cost: $0.<br>Prerequisite: ICS 184 with a C or better, or concurrent enrollment, or consent of the instructor. Recommended Preparation: ICS 170.<br><br>Students will be contacted at their UH email address by their instructor prior to the first day of class. -->
+<td CLASS="default">Intro Computer Security</td>
+<td CLASS="default">3</td>
+<td CLASS="default"><abbr title="Courtney N Kinder"><span class="abbr" title="Courtney N Kinder">C N Kinder</span></abbr></td>
+<td class="default" align="center">17</td>
+<td class="default" align="center">3</td>
+<td CLASS="default">TBA</td>
+<td CLASS="default">TBA</td>
+<td CLASS="default"><abbr title="Online Online Asynchronous"><span class="abbr" title="Online Online Asynchronous">ONLINE ASYNC</span></abbr></td>
+<td CLASS="default">08/21-12/15</td>
+</tr>
+<tr>
+<td colspan="13">
+Textbook Cost: $0.<br>Prerequisite: ICS 184 with a C or better, or concurrent enrollment, or consent of the instructor. Recommended Preparation: ICS 170.<br><br>Students will be contacted at their UH email address by their instructor prior to the first day of class.
+</td>
+</tr>
+<!-- sect_rec: i 'LEE', term: '202410', ssbsect_crn: '54116', ssrmeet: '54116' -->
+<!-- pt. a -->
+<!-- pt. b -->
+<!-- pt. c -->
+<!-- pt. d -->
+<!-- pt. e -->
+<!-- pt. f -->
+<!-- pt. g -->
+<tr class="odd">
+<td CLASS="default">&nbsp;</td>
+<!-- pt. h -->
+<td CLASS="default"><a href="./avail.class?i=LEE&t=202410&c=54116">54116</a></td>
+<td nowrap="nowrap" CLASS="default">ICS 184</td>
+<td CLASS="default">0</td>
+<!-- ssrmeet_array_length = 0 -->
+<!-- ssrmeet_array_length = 1 -->
+<!-- comment_text=This section will be participating in Leeward Community College Bookstore's program, IDAP.  For more information, please check the bookstore's textbook listing and IDAP FAQ page at www.bookstore.hawaii.edu/lcc.<br><br>Students will be contacted at their UH email address by their instructor prior to the first day of class. -->
+<td CLASS="default">Intro to Networking</td>
+<td CLASS="default">3</td>
+<td CLASS="default"><abbr title="Blanca J Polo"><span class="abbr" title="Blanca J Polo">B J Polo</span></abbr></td>
+<td class="default" align="center">18</td>
+<td class="default" align="center">2</td>
+<td CLASS="default">TBA</td>
+<td CLASS="default">TBA</td>
+<td CLASS="default"><abbr title="Online Online Asynchronous"><span class="abbr" title="Online Online Asynchronous">ONLINE ASYNC</span></abbr></td>
+<td CLASS="default">08/21-12/15</td>
+</tr>
+<tr class="odd">
+<td colspan="13">
+This section will be participating in Leeward Community College Bookstore's program, IDAP.  For more information, please check the bookstore's textbook listing and IDAP FAQ page at www.bookstore.hawaii.edu/lcc.<br><br>Students will be contacted at their UH email address by their instructor prior to the first day of class.
+</td>
+</tr>
+<!-- sect_rec: i 'LEE', term: '202410', ssbsect_crn: '54277', ssrmeet: '54277' -->
+<!-- pt. a -->
+<!-- pt. b -->
+<!-- pt. c -->
+<!-- pt. d -->
+<!-- pt. e -->
+<!-- pt. f -->
+<!-- pt. g -->
+<tr>
+<td CLASS="default">&nbsp;</td>
+<!-- pt. h -->
+<td CLASS="default"><a href="./avail.class?i=LEE&t=202410&c=54277">54277</a></td>
+<td nowrap="nowrap" CLASS="default">ICS 184</td>
+<td CLASS="default">0</td>
+<!-- ssrmeet_array_length = 0 -->
+<!-- ssrmeet_array_length = 1 -->
+<!-- comment_text=Purchase of an online access code for course materials is required.<br><br>Students will be contacted at their UH email address by their instructor prior to the first day of class. -->
+<td CLASS="default">Intro to Networking</td>
+<td CLASS="default">3</td>
+<td CLASS="default"><abbr title="Alejandro A Ramos"><span class="abbr" title="Alejandro A Ramos">A A Ramos</span></abbr></td>
+<td class="default" align="center">17</td>
+<td class="default" align="center">3</td>
+<td CLASS="default">TBA</td>
+<td CLASS="default">TBA</td>
+<td CLASS="default"><abbr title="Online Online Asynchronous"><span class="abbr" title="Online Online Asynchronous">ONLINE ASYNC</span></abbr></td>
+<td CLASS="default">08/21-12/15</td>
+</tr>
+<tr>
+<td colspan="13">
+Purchase of an online access code for course materials is required.<br><br>Students will be contacted at their UH email address by their instructor prior to the first day of class.
+</td>
+</tr>
+<!-- sect_rec: i 'LEE', term: '202410', ssbsect_crn: '54811', ssrmeet: '54811' -->
+<!-- pt. a -->
+<!-- pt. b -->
+<!-- pt. c -->
+<!-- pt. d -->
+<!-- pt. e -->
+<!-- pt. f -->
+<!-- pt. g -->
+<tr class="odd">
+<td CLASS="default">&nbsp;</td>
+<!-- pt. h -->
+<td CLASS="default"><a href="./avail.class?i=LEE&t=202410&c=54811">54811</a></td>
+<td nowrap="nowrap" CLASS="default">ICS 184</td>
+<td CLASS="default">0</td>
+<!-- ssrmeet_array_length = 0 -->
+<!-- ssrmeet_array_length = 1 -->
+<!-- comment_text=Purchase of an online access code for course materials is required.<br><br>Students will be contacted at their UH email address by their instructor prior to the first day of class. -->
+<td CLASS="default">Intro to Networking</td>
+<td CLASS="default">3</td>
+<td CLASS="default"><abbr title="Alejandro A Ramos"><span class="abbr" title="Alejandro A Ramos">A A Ramos</span></abbr></td>
+<td class="default" align="center">19</td>
+<td class="default" align="center">1</td>
+<td CLASS="default">TBA</td>
+<td CLASS="default">TBA</td>
+<td CLASS="default"><abbr title="Online Online Asynchronous"><span class="abbr" title="Online Online Asynchronous">ONLINE ASYNC</span></abbr></td>
+<td CLASS="default">08/21-12/15</td>
+</tr>
+<tr class="odd">
+<td colspan="13">
+Purchase of an online access code for course materials is required.<br><br>Students will be contacted at their UH email address by their instructor prior to the first day of class.
+</td>
+</tr>
+<!-- sect_rec: i 'LEE', term: '202410', ssbsect_crn: '54822', ssrmeet: '54822' -->
+<!-- pt. a -->
+<!-- pt. b -->
+<!-- pt. c -->
+<!-- pt. d -->
+<!-- pt. e -->
+<!-- pt. f -->
+<!-- pt. g -->
+<tr>
+<td CLASS="default">&nbsp;</td>
+<!-- pt. h -->
+<td CLASS="default"><a href="./avail.class?i=LEE&t=202410&c=54822">54822</a></td>
+<td nowrap="nowrap" CLASS="default">ICS 184</td>
+<td CLASS="default">0</td>
+<!-- ssrmeet_array_length = 0 -->
+<!-- ssrmeet_array_length = 1 -->
+<!-- comment_text=This section will be participating in Leeward Community College Bookstore's program, IDAP.  For more information, please check the bookstore's textbook listing and IDAP FAQ page at www.bookstore.hawaii.edu/lcc.<br><br>Students will be contacted at their UH email address by their instructor prior to the first day of class. -->
+<td CLASS="default">Intro to Networking</td>
+<td CLASS="default">3</td>
+<td CLASS="default"><abbr title="Petersen W Gross"><span class="abbr" title="Petersen W Gross">P W Gross</span></abbr></td>
+<td class="default" align="center">20</td>
+<td class="default" align="center">0</td>
+<td CLASS="default">TR</td>
+<td nowrap="nowrap" CLASS="default">0900-<spacer />1015a</td>
+<td CLASS="default"><abbr title="Biological Science Room 107"><span class="abbr" title="Biological Science Room 107">BS 107</span></abbr></td>
+<td CLASS="default">08/21-12/15</td>
+</tr>
+<tr>
+<td colspan="13">
+This section will be participating in Leeward Community College Bookstore's program, IDAP.  For more information, please check the bookstore's textbook listing and IDAP FAQ page at www.bookstore.hawaii.edu/lcc.<br><br>Students will be contacted at their UH email address by their instructor prior to the first day of class.
+</td>
+</tr>
+<!-- sect_rec: i 'LEE', term: '202410', ssbsect_crn: '55192', ssrmeet: '55192' -->
+<!-- pt. a -->
+<!-- pt. b -->
+<!-- pt. c -->
+<!-- pt. d -->
+<!-- pt. e -->
+<!-- pt. f -->
+<!-- pt. g -->
+<tr class="odd">
+<td CLASS="default">TXT0</td>
+<!-- pt. h -->
+<td CLASS="default"><a href="./avail.class?i=LEE&t=202410&c=55192">55192</a></td>
+<td nowrap="nowrap" CLASS="default">ICS 184</td>
+<td CLASS="default">0</td>
+<!-- ssrmeet_array_length = 0 -->
+<!-- ssrmeet_array_length = 1 -->
+<!-- comment_text=Textbook Cost: $0.<br><br>Students will be contacted at their UH email address by their instructor prior to the first day of class. -->
+<td CLASS="default">Intro to Networking</td>
+<td CLASS="default">3</td>
+<td CLASS="default"><abbr title="Vincent W Lee"><span class="abbr" title="Vincent W Lee">V W Lee</span></abbr></td>
+<td class="default" align="center">17</td>
+<td class="default" align="center">3</td>
+<td CLASS="default">TBA</td>
+<td CLASS="default">TBA</td>
+<td CLASS="default"><abbr title="Online Online Asynchronous"><span class="abbr" title="Online Online Asynchronous">ONLINE ASYNC</span></abbr></td>
+<td CLASS="default">08/21-12/15</td>
+</tr>
+<tr class="odd">
+<td colspan="13">
+Textbook Cost: $0.<br><br>Students will be contacted at their UH email address by their instructor prior to the first day of class.
+</td>
+</tr>
+<!-- sect_rec: i 'LEE', term: '202410', ssbsect_crn: '55202', ssrmeet: '55202' -->
+<!-- pt. a -->
+<!-- pt. b -->
+<!-- pt. c -->
+<!-- pt. d -->
+<!-- pt. e -->
+<!-- pt. f -->
+<!-- pt. g -->
+<tr>
+<td CLASS="default">TXT0</td>
+<!-- pt. h -->
+<td CLASS="default"><a href="./avail.class?i=LEE&t=202410&c=55202">55202</a></td>
+<td nowrap="nowrap" CLASS="default">ICS 184</td>
+<td CLASS="default">0</td>
+<!-- ssrmeet_array_length = 0 -->
+<!-- ssrmeet_array_length = 1 -->
+<!-- comment_text=Textbook Cost: $0.<br><br>Students will be contacted at their UH email address by their instructor prior to the first day of class. -->
+<td CLASS="default">Intro to Networking</td>
+<td CLASS="default">3</td>
+<td CLASS="default"><abbr title="Vincent W Lee"><span class="abbr" title="Vincent W Lee">V W Lee</span></abbr></td>
+<td class="default" align="center">17</td>
+<td class="default" align="center">3</td>
+<td CLASS="default">TBA</td>
+<td CLASS="default">TBA</td>
+<td CLASS="default"><abbr title="Online Online Asynchronous"><span class="abbr" title="Online Online Asynchronous">ONLINE ASYNC</span></abbr></td>
+<td CLASS="default">08/21-12/15</td>
+</tr>
+<tr>
+<td colspan="13">
+Textbook Cost: $0.<br><br>Students will be contacted at their UH email address by their instructor prior to the first day of class.
+</td>
+</tr>
+<!-- sect_rec: i 'LEE', term: '202410', ssbsect_crn: '54118', ssrmeet: '54118' -->
+<!-- pt. a -->
+<!-- pt. b -->
+<!-- pt. c -->
+<!-- pt. d -->
+<!-- pt. e -->
+<!-- pt. f -->
+<!-- pt. g -->
+<tr class="odd">
+<td CLASS="default">&nbsp;</td>
+<!-- pt. h -->
+<td CLASS="default"><a href="./avail.class?i=LEE&t=202410&c=54118">54118</a></td>
+<td nowrap="nowrap" CLASS="default">ICS 211</td>
+<td CLASS="default">0</td>
+<!-- ssrmeet_array_length = 0 -->
+<!-- ssrmeet_array_length = 1 -->
+<!-- comment_text=Prerequisite: ICS 111 with a grade of C or higher, or instructor consent.<br><br>This section will be participating in Leeward Community College Bookstore's program, IDAP.  For more information, please check the bookstore's textbook listing and IDAP FAQ page at www.bookstore.hawaii.edu/lcc.<br><br>Students will be contacted at their UH email address by their instructor prior to the first day of class. -->
+<td CLASS="default">Intro to Computer Sci II</td>
+<td CLASS="default">3</td>
+<td CLASS="default"><abbr title="Blanca J Polo"><span class="abbr" title="Blanca J Polo">B J Polo</span></abbr></td>
+<td class="default" align="center">9</td>
+<td class="default" align="center">1</td>
+<td CLASS="default">R</td>
+<td nowrap="nowrap" CLASS="default">1030-<spacer />1145a</td>
+<td CLASS="default"><abbr title="Biological Science Room 107"><span class="abbr" title="Biological Science Room 107">BS 107</span></abbr></td>
+<td CLASS="default">08/21-12/15</td>
+</tr>
+<tr class="odd">
+<td colspan="13">
+Prerequisite: ICS 111 with a grade of C or higher, or instructor consent.<br><br>This section will be participating in Leeward Community College Bookstore's program, IDAP.  For more information, please check the bookstore's textbook listing and IDAP FAQ page at www.bookstore.hawaii.edu/lcc.<br><br>Students will be contacted at their UH email address by their instructor prior to the first day of class.
+</td>
+</tr>
+<!-- sect_rec: i 'LEE', term: '202410', ssbsect_crn: '54223', ssrmeet: '54223' -->
+<!-- pt. a -->
+<!-- pt. b -->
+<!-- pt. c -->
+<!-- pt. d -->
+<!-- pt. e -->
+<!-- pt. f -->
+<!-- pt. g -->
+<tr>
+<td CLASS="default">&nbsp;</td>
+<!-- pt. h -->
+<td CLASS="default"><a href="./avail.class?i=LEE&t=202410&c=54223">54223</a></td>
+<td nowrap="nowrap" CLASS="default">ICS 211</td>
+<td CLASS="default">0</td>
+<!-- ssrmeet_array_length = 0 -->
+<!-- ssrmeet_array_length = 1 -->
+<!-- comment_text=Prerequisite: ICS 111 with a grade of C or higher, or instructor consent.<br><br>This section will be participating in Leeward Community College Bookstore's program, IDAP.  For more information, please check the bookstore's textbook listing and IDAP FAQ page at www.bookstore.hawaii.edu/lcc.<br><br>Students will be contacted at their UH email address by their instructor prior to the first day of class. -->
+<td CLASS="default">Intro to Computer Sci II</td>
+<td CLASS="default">3</td>
+<td CLASS="default"><abbr title="Blanca J Polo"><span class="abbr" title="Blanca J Polo">B J Polo</span></abbr></td>
+<td class="default" align="center">8</td>
+<td class="default" align="center">2</td>
+<td CLASS="default">TBA</td>
+<td CLASS="default">TBA</td>
+<td CLASS="default"><abbr title="Online Online Asynchronous"><span class="abbr" title="Online Online Asynchronous">ONLINE ASYNC</span></abbr></td>
+<td CLASS="default">08/21-12/15</td>
+</tr>
+<tr>
+<td colspan="13">
+Prerequisite: ICS 111 with a grade of C or higher, or instructor consent.<br><br>This section will be participating in Leeward Community College Bookstore's program, IDAP.  For more information, please check the bookstore's textbook listing and IDAP FAQ page at www.bookstore.hawaii.edu/lcc.<br><br>Students will be contacted at their UH email address by their instructor prior to the first day of class.
+</td>
+</tr>
+<!-- sect_rec: i 'LEE', term: '202410', ssbsect_crn: '54537', ssrmeet: '54537' -->
+<!-- pt. a -->
+<!-- pt. b -->
+<!-- pt. c -->
+<!-- pt. d -->
+<!-- pt. e -->
+<!-- pt. f -->
+<!-- pt. g -->
+<tr class="odd">
+<td CLASS="default">&nbsp;</td>
+<!-- pt. h -->
+<td CLASS="default"><a href="./avail.class?i=LEE&t=202410&c=54537">54537</a></td>
+<td nowrap="nowrap" CLASS="default">ICS 211</td>
+<td CLASS="default">0</td>
+<!-- ssrmeet_array_length = 0 -->
+<!-- ssrmeet_array_length = 1 -->
+<!-- comment_text=Prerequisite: ICS 111 with a grade of C or higher, or instructor consent.<br><br>This section will be participating in Leeward Community College Bookstore's program, IDAP.  For more information, please check the bookstore's textbook listing and IDAP FAQ page at www.bookstore.hawaii.edu/lcc.<br><br>Students will be contacted at their UH email address by their instructor prior to the first day of class. -->
+<td CLASS="default">Intro to Computer Sci II</td>
+<td CLASS="default">3</td>
+<td CLASS="default"><abbr title="Blanca J Polo"><span class="abbr" title="Blanca J Polo">B J Polo</span></abbr></td>
+<td class="default" align="center">16</td>
+<td class="default" align="center">4</td>
+<td CLASS="default">TBA</td>
+<td CLASS="default">TBA</td>
+<td CLASS="default"><abbr title="Online Online Asynchronous"><span class="abbr" title="Online Online Asynchronous">ONLINE ASYNC</span></abbr></td>
+<td CLASS="default">08/21-12/15</td>
+</tr>
+<tr class="odd">
+<td colspan="13">
+Prerequisite: ICS 111 with a grade of C or higher, or instructor consent.<br><br>This section will be participating in Leeward Community College Bookstore's program, IDAP.  For more information, please check the bookstore's textbook listing and IDAP FAQ page at www.bookstore.hawaii.edu/lcc.<br><br>Students will be contacted at their UH email address by their instructor prior to the first day of class.
+</td>
+</tr>
+<!-- sect_rec: i 'LEE', term: '202410', ssbsect_crn: '54800', ssrmeet: '54800' -->
+<!-- pt. a -->
+<!-- pt. b -->
+<!-- pt. c -->
+<!-- pt. d -->
+<!-- pt. e -->
+<!-- pt. f -->
+<!-- pt. g -->
+<tr>
+<td CLASS="default">&nbsp;</td>
+<!-- pt. h -->
+<td CLASS="default"><a href="./avail.class?i=LEE&t=202410&c=54800">54800</a></td>
+<td nowrap="nowrap" CLASS="default">ICS 211</td>
+<td CLASS="default">0</td>
+<!-- ssrmeet_array_length = 0 -->
+<!-- ssrmeet_array_length = 1 -->
+<!-- comment_text=Prerequisite: ICS 111 with a grade of C or higher, or instructor consent.<br><br>This section will be participating in Leeward Community College Bookstore's program, IDAP.  For more information, please check the bookstore's textbook listing and IDAP FAQ page at www.bookstore.hawaii.edu/lcc.<br><br>Students will be contacted at their UH email address by their instructor prior to the first day of class. -->
+<td CLASS="default">Intro to Computer Sci II</td>
+<td CLASS="default">3</td>
+<td CLASS="default"><abbr title="Blanca J Polo"><span class="abbr" title="Blanca J Polo">B J Polo</span></abbr></td>
+<td class="default" align="center">14</td>
+<td class="default" align="center">6</td>
+<td CLASS="default">TBA</td>
+<td CLASS="default">TBA</td>
+<td CLASS="default"><abbr title="Online Online Asynchronous"><span class="abbr" title="Online Online Asynchronous">ONLINE ASYNC</span></abbr></td>
+<td CLASS="default">08/21-12/15</td>
+</tr>
+<tr>
+<td colspan="13">
+Prerequisite: ICS 111 with a grade of C or higher, or instructor consent.<br><br>This section will be participating in Leeward Community College Bookstore's program, IDAP.  For more information, please check the bookstore's textbook listing and IDAP FAQ page at www.bookstore.hawaii.edu/lcc.<br><br>Students will be contacted at their UH email address by their instructor prior to the first day of class.
+</td>
+</tr>
+<!-- sect_rec: i 'LEE', term: '202410', ssbsect_crn: '55174', ssrmeet: '55174' -->
+<!-- pt. a -->
+<!-- pt. b -->
+<!-- pt. c -->
+<!-- pt. d -->
+<!-- pt. e -->
+<!-- pt. f -->
+<!-- pt. g -->
+<tr class="odd">
+<td CLASS="default">&nbsp;</td>
+<!-- pt. h -->
+<td CLASS="default"><a href="./avail.class?i=LEE&t=202410&c=55174">55174</a></td>
+<td nowrap="nowrap" CLASS="default">ICS 211</td>
+<td CLASS="default">0</td>
+<!-- ssrmeet_array_length = 0 -->
+<!-- ssrmeet_array_length = 1 -->
+<!-- comment_text=Prerequisite: ICS 111 with a grade of C or higher, or instructor consent.<br><br>This section will be participating in Leeward Community College Bookstore's program, IDAP.  For more information, please check the bookstore's textbook listing and IDAP FAQ page at www.bookstore.hawaii.edu/lcc.<br><br>Students will be contacted at their UH email address by their instructor prior to the first day of class. -->
+<td CLASS="default">Intro to Computer Sci II</td>
+<td CLASS="default">3</td>
+<td CLASS="default"><abbr title="Blanca J Polo"><span class="abbr" title="Blanca J Polo">B J Polo</span></abbr></td>
+<td class="default" align="center">16</td>
+<td class="default" align="center">4</td>
+<td CLASS="default">TBA</td>
+<td CLASS="default">TBA</td>
+<td CLASS="default"><abbr title="Online Online Asynchronous"><span class="abbr" title="Online Online Asynchronous">ONLINE ASYNC</span></abbr></td>
+<td CLASS="default">08/21-12/15</td>
+</tr>
+<tr class="odd">
+<td colspan="13">
+Prerequisite: ICS 111 with a grade of C or higher, or instructor consent.<br><br>This section will be participating in Leeward Community College Bookstore's program, IDAP.  For more information, please check the bookstore's textbook listing and IDAP FAQ page at www.bookstore.hawaii.edu/lcc.<br><br>Students will be contacted at their UH email address by their instructor prior to the first day of class.
+</td>
+</tr>
+<!-- sect_rec: i 'LEE', term: '202410', ssbsect_crn: '54398', ssrmeet: '54398' -->
+<!-- pt. a -->
+<!-- pt. b -->
+<!-- pt. c -->
+<!-- pt. d -->
+<!-- pt. e -->
+<!-- pt. f -->
+<!-- pt. g -->
+<tr>
+<td CLASS="default">&nbsp;</td>
+<!-- pt. h -->
+<td CLASS="default"><a href="./avail.class?i=LEE&t=202410&c=54398">54398</a></td>
+<td nowrap="nowrap" CLASS="default">ICS 212</td>
+<td CLASS="default">0</td>
+<!-- ssrmeet_array_length = 0 -->
+<!-- ssrmeet_array_length = 1 -->
+<!-- comment_text=Prerequisite: ICS 211 with a grade of C or higher, or instructor consent.<br>Students will be contacted at their UH email address by their instructor prior to the first day of class. -->
+<td CLASS="default">Program Structure</td>
+<td CLASS="default">3</td>
+<td CLASS="default"><abbr title="Edward T Meyer"><span class="abbr" title="Edward T Meyer">E T Meyer</span></abbr></td>
+<td class="default" align="center">20</td>
+<td class="default" align="center">0</td>
+<td CLASS="default">TBA</td>
+<td CLASS="default">TBA</td>
+<td CLASS="default"><abbr title="Online Online Asynchronous"><span class="abbr" title="Online Online Asynchronous">ONLINE ASYNC</span></abbr></td>
+<td CLASS="default">08/21-12/15</td>
+</tr>
+<tr>
+<td colspan="13">
+Prerequisite: ICS 211 with a grade of C or higher, or instructor consent.<br>Students will be contacted at their UH email address by their instructor prior to the first day of class.
+</td>
+</tr>
+<!-- sect_rec: i 'LEE', term: '202410', ssbsect_crn: '54987', ssrmeet: '54987' -->
+<!-- pt. a -->
+<!-- pt. b -->
+<!-- pt. c -->
+<!-- pt. d -->
+<!-- pt. e -->
+<!-- pt. f -->
+<!-- pt. g -->
+<tr class="odd">
+<td CLASS="default">&nbsp;</td>
+<!-- pt. h -->
+<td CLASS="default"><a href="./avail.class?i=LEE&t=202410&c=54987">54987</a></td>
+<td nowrap="nowrap" CLASS="default">ICS 212</td>
+<td CLASS="default">0</td>
+<!-- ssrmeet_array_length = 0 -->
+<!-- ssrmeet_array_length = 1 -->
+<!-- comment_text=Prerequisite: ICS 211 with a grade of C or higher, or instructor consent.<br>Students will be contacted at their UH email address by their instructor prior to the first day of class. -->
+<td CLASS="default">Program Structure</td>
+<td CLASS="default">3</td>
+<td CLASS="default"><abbr title="Edward T Meyer"><span class="abbr" title="Edward T Meyer">E T Meyer</span></abbr></td>
+<td class="default" align="center">20</td>
+<td class="default" align="center">0</td>
+<td CLASS="default">TBA</td>
+<td CLASS="default">TBA</td>
+<td CLASS="default"><abbr title="Online Online Asynchronous"><span class="abbr" title="Online Online Asynchronous">ONLINE ASYNC</span></abbr></td>
+<td CLASS="default">08/21-12/15</td>
+</tr>
+<tr class="odd">
+<td colspan="13">
+Prerequisite: ICS 211 with a grade of C or higher, or instructor consent.<br>Students will be contacted at their UH email address by their instructor prior to the first day of class.
+</td>
+</tr>
+<!-- sect_rec: i 'LEE', term: '202410', ssbsect_crn: '55142', ssrmeet: '55142' -->
+<!-- pt. a -->
+<!-- pt. b -->
+<!-- pt. c -->
+<!-- pt. d -->
+<!-- pt. e -->
+<!-- pt. f -->
+<!-- pt. g -->
+<tr>
+<td CLASS="default">&nbsp;</td>
+<!-- pt. h -->
+<td CLASS="default"><a href="./avail.class?i=LEE&t=202410&c=55142">55142</a></td>
+<td nowrap="nowrap" CLASS="default">ICS 212</td>
+<td CLASS="default">0</td>
+<!-- ssrmeet_array_length = 0 -->
+<!-- ssrmeet_array_length = 1 -->
+<!-- comment_text=Prerequisite: ICS 211 with a grade of C or higher, or instructor consent.<br>Students will be contacted at their UH email address by their instructor prior to the first day of class. -->
+<td CLASS="default">Program Structure</td>
+<td CLASS="default">3</td>
+<td CLASS="default"><abbr title="William R Wright"><span class="abbr" title="William R Wright">W R Wright</span></abbr></td>
+<td class="default" align="center">18</td>
+<td class="default" align="center">2</td>
+<td CLASS="default">TBA</td>
+<td CLASS="default">TBA</td>
+<td CLASS="default"><abbr title="Online Online Asynchronous"><span class="abbr" title="Online Online Asynchronous">ONLINE ASYNC</span></abbr></td>
+<td CLASS="default">08/21-12/15</td>
+</tr>
+<tr>
+<td colspan="13">
+Prerequisite: ICS 211 with a grade of C or higher, or instructor consent.<br>Students will be contacted at their UH email address by their instructor prior to the first day of class.
+</td>
+</tr>
+<!-- sect_rec: i 'LEE', term: '202410', ssbsect_crn: '55156', ssrmeet: '55156' -->
+<!-- pt. a -->
+<!-- pt. b -->
+<!-- pt. c -->
+<!-- pt. d -->
+<!-- pt. e -->
+<!-- pt. f -->
+<!-- pt. g -->
+<tr class="odd">
+<td CLASS="default">&nbsp;</td>
+<!-- pt. h -->
+<td CLASS="default"><a href="./avail.class?i=LEE&t=202410&c=55156">55156</a></td>
+<td nowrap="nowrap" CLASS="default">ICS 212</td>
+<td CLASS="default">0</td>
+<!-- ssrmeet_array_length = 0 -->
+<!-- ssrmeet_array_length = 1 -->
+<!-- comment_text=Prerequisite: ICS 211 with a grade of C or higher, or instructor consent.<br>Students will be contacted at their UH email address by their instructor prior to the first day of class. -->
+<td CLASS="default">Program Structure</td>
+<td CLASS="default">3</td>
+<td CLASS="default"><abbr title="William R Wright"><span class="abbr" title="William R Wright">W R Wright</span></abbr></td>
+<td class="default" align="center">6</td>
+<td class="default" align="center">14</td>
+<td CLASS="default">TBA</td>
+<td CLASS="default">TBA</td>
+<td CLASS="default"><abbr title="Online Online Asynchronous"><span class="abbr" title="Online Online Asynchronous">ONLINE ASYNC</span></abbr></td>
+<td CLASS="default">08/21-12/15</td>
+</tr>
+<tr class="odd">
+<td colspan="13">
+Prerequisite: ICS 211 with a grade of C or higher, or instructor consent.<br>Students will be contacted at their UH email address by their instructor prior to the first day of class.
+</td>
+</tr>
+<!-- sect_rec: i 'LEE', term: '202410', ssbsect_crn: '54502', ssrmeet: '54502' -->
+<!-- pt. a -->
+<!-- pt. b -->
+<!-- pt. c -->
+<!-- pt. d -->
+<!-- pt. e -->
+<!-- pt. f -->
+<!-- pt. g -->
+<tr>
+<td CLASS="default">&nbsp;</td>
+<!-- pt. h -->
+<td CLASS="default"><a href="./avail.class?i=LEE&t=202410&c=54502">54502</a></td>
+<td nowrap="nowrap" CLASS="default">ICS 215</td>
+<td CLASS="default">0</td>
+<!-- ssrmeet_array_length = 0 -->
+<!-- ssrmeet_array_length = 1 -->
+<!-- comment_text=Prerequisites: ICS 111 with a C or higher or consent of instructor.<br>Students will be contacted at their UH email address by their instructor prior to the first day of class. -->
+<td CLASS="default">Introduction to Scripting</td>
+<td CLASS="default">3</td>
+<td CLASS="default"><abbr title="Edward T Meyer"><span class="abbr" title="Edward T Meyer">E T Meyer</span></abbr></td>
+<td class="default" align="center">7</td>
+<td class="default" align="center">13</td>
+<td CLASS="default">TR</td>
+<td nowrap="nowrap" CLASS="default">1030-<spacer />1145a</td>
+<td CLASS="default"><abbr title="Biological Science Classroom 105"><span class="abbr" title="Biological Science Classroom 105">BS 105</span></abbr></td>
+<td CLASS="default">08/21-12/15</td>
+</tr>
+<tr>
+<td colspan="13">
+Prerequisites: ICS 111 with a C or higher or consent of instructor.<br>Students will be contacted at their UH email address by their instructor prior to the first day of class.
+</td>
+</tr>
+<!-- sect_rec: i 'LEE', term: '202410', ssbsect_crn: '54526', ssrmeet: '54526' -->
+<!-- pt. a -->
+<!-- pt. b -->
+<!-- pt. c -->
+<!-- pt. d -->
+<!-- pt. e -->
+<!-- pt. f -->
+<!-- pt. g -->
+<tr class="odd">
+<td CLASS="default">&nbsp;</td>
+<!-- pt. h -->
+<td CLASS="default"><a href="./avail.class?i=LEE&t=202410&c=54526">54526</a></td>
+<td nowrap="nowrap" CLASS="default">ICS 215</td>
+<td CLASS="default">0</td>
+<!-- ssrmeet_array_length = 0 -->
+<!-- ssrmeet_array_length = 1 -->
+<!-- comment_text=Prerequisites: ICS 111 with a C or higher or consent of instructor.<br>Students will be contacted at their UH email address by their instructor prior to the first day of class. -->
+<td CLASS="default">Introduction to Scripting</td>
+<td CLASS="default">3</td>
+<td CLASS="default"><abbr title="Edward T Meyer"><span class="abbr" title="Edward T Meyer">E T Meyer</span></abbr></td>
+<td class="default" align="center">20</td>
+<td class="default" align="center">0</td>
+<td CLASS="default">TBA</td>
+<td CLASS="default">TBA</td>
+<td CLASS="default"><abbr title="Online Online Asynchronous"><span class="abbr" title="Online Online Asynchronous">ONLINE ASYNC</span></abbr></td>
+<td CLASS="default">08/21-12/15</td>
+</tr>
+<tr class="odd">
+<td colspan="13">
+Prerequisites: ICS 111 with a C or higher or consent of instructor.<br>Students will be contacted at their UH email address by their instructor prior to the first day of class.
+</td>
+</tr>
+<!-- sect_rec: i 'LEE', term: '202410', ssbsect_crn: '54545', ssrmeet: '54545' -->
+<!-- pt. a -->
+<!-- pt. b -->
+<!-- pt. c -->
+<!-- pt. d -->
+<!-- pt. e -->
+<!-- pt. f -->
+<!-- pt. g -->
+<tr>
+<td CLASS="default">TXT0</td>
+<!-- pt. h -->
+<td CLASS="default"><a href="./avail.class?i=LEE&t=202410&c=54545">54545</a></td>
+<td nowrap="nowrap" CLASS="default">ICS 231</td>
+<td CLASS="default">0</td>
+<!-- ssrmeet_array_length = 0 -->
+<!-- ssrmeet_array_length = 1 -->
+<!-- comment_text=Textbook Cost: $0.<br>Prerequisite: ICS 111 with a grade of "C" or better, or concurrent enrollment, or instructor consent.<br>Students will be contacted at their UH email address by their instructor prior to the first day of class. -->
+<td CLASS="default">Introduction to Linux</td>
+<td CLASS="default">3</td>
+<td CLASS="default"><abbr title="Petersen W Gross"><span class="abbr" title="Petersen W Gross">P W Gross</span></abbr></td>
+<td class="default" align="center">18</td>
+<td class="default" align="center">2</td>
+<td CLASS="default">TBA</td>
+<td CLASS="default">TBA</td>
+<td CLASS="default"><abbr title="Online Online Asynchronous"><span class="abbr" title="Online Online Asynchronous">ONLINE ASYNC</span></abbr></td>
+<td CLASS="default">08/21-12/15</td>
+</tr>
+<tr>
+<td colspan="13">
+Textbook Cost: $0.<br>Prerequisite: ICS 111 with a grade of "C" or better, or concurrent enrollment, or instructor consent.<br>Students will be contacted at their UH email address by their instructor prior to the first day of class.
+</td>
+</tr>
+<!-- sect_rec: i 'LEE', term: '202410', ssbsect_crn: '54546', ssrmeet: '54546' -->
+<!-- pt. a -->
+<!-- pt. b -->
+<!-- pt. c -->
+<!-- pt. d -->
+<!-- pt. e -->
+<!-- pt. f -->
+<!-- pt. g -->
+<tr class="odd">
+<td CLASS="default">TXT0</td>
+<!-- pt. h -->
+<td CLASS="default"><a href="./avail.class?i=LEE&t=202410&c=54546">54546</a></td>
+<td nowrap="nowrap" CLASS="default">ICS 231</td>
+<td CLASS="default">0</td>
+<!-- ssrmeet_array_length = 0 -->
+<!-- ssrmeet_array_length = 1 -->
+<!-- comment_text=Textbook Cost: $0.<br>Prerequisite: ICS 111 with a grade of "C" or better, or concurrent enrollment, or instructor consent.<br>Students will be contacted at their UH email address by their instructor prior to the first day of class. -->
+<td CLASS="default">Introduction to Linux</td>
+<td CLASS="default">3</td>
+<td CLASS="default"><abbr title="Petersen W Gross"><span class="abbr" title="Petersen W Gross">P W Gross</span></abbr></td>
+<td class="default" align="center">18</td>
+<td class="default" align="center">2</td>
+<td CLASS="default">TBA</td>
+<td CLASS="default">TBA</td>
+<td CLASS="default"><abbr title="Online Online Asynchronous"><span class="abbr" title="Online Online Asynchronous">ONLINE ASYNC</span></abbr></td>
+<td CLASS="default">08/21-12/15</td>
+</tr>
+<tr class="odd">
+<td colspan="13">
+Textbook Cost: $0.<br>Prerequisite: ICS 111 with a grade of "C" or better, or concurrent enrollment, or instructor consent.<br>Students will be contacted at their UH email address by their instructor prior to the first day of class.
+</td>
+</tr>
+<!-- sect_rec: i 'LEE', term: '202410', ssbsect_crn: '55187', ssrmeet: '55187' -->
+<!-- pt. a -->
+<!-- pt. b -->
+<!-- pt. c -->
+<!-- pt. d -->
+<!-- pt. e -->
+<!-- pt. f -->
+<!-- pt. g -->
+<tr>
+<td CLASS="default">TXT0</td>
+<!-- pt. h -->
+<td CLASS="default"><a href="./avail.class?i=LEE&t=202410&c=55187">55187</a></td>
+<td nowrap="nowrap" CLASS="default">ICS 231</td>
+<td CLASS="default">0</td>
+<!-- ssrmeet_array_length = 0 -->
+<!-- ssrmeet_array_length = 1 -->
+<!-- comment_text=Textbook Cost: $0.<br>Prerequisite: ICS 111 with a grade of "C" or better, or concurrent enrollment, or instructor consent.<br>Students will be contacted at their UH email address by their instructor prior to the first day of class. -->
+<td CLASS="default">Introduction to Linux</td>
+<td CLASS="default">3</td>
+<td CLASS="default"><abbr title="William R Wright"><span class="abbr" title="William R Wright">W R Wright</span></abbr></td>
+<td class="default" align="center">8</td>
+<td class="default" align="center">12</td>
+<td CLASS="default">TBA</td>
+<td CLASS="default">TBA</td>
+<td CLASS="default"><abbr title="Online Online Asynchronous"><span class="abbr" title="Online Online Asynchronous">ONLINE ASYNC</span></abbr></td>
+<td CLASS="default">08/21-12/15</td>
+</tr>
+<tr>
+<td colspan="13">
+Textbook Cost: $0.<br>Prerequisite: ICS 111 with a grade of "C" or better, or concurrent enrollment, or instructor consent.<br>Students will be contacted at their UH email address by their instructor prior to the first day of class.
+</td>
+</tr>
+<!-- sect_rec: i 'LEE', term: '202410', ssbsect_crn: '54221', ssrmeet: '54221' -->
+<!-- pt. a -->
+<!-- pt. b -->
+<!-- pt. c -->
+<!-- pt. d -->
+<!-- pt. e -->
+<!-- pt. f -->
+<!-- pt. g -->
+<tr class="odd">
+<td CLASS="default">FQ,TXT0</td>
+<!-- pt. h -->
+<td CLASS="default"><a href="./avail.class?i=LEE&t=202410&c=54221">54221</a></td>
+<td nowrap="nowrap" CLASS="default">ICS 241</td>
+<td CLASS="default">0</td>
+<!-- ssrmeet_array_length = 0 -->
+<!-- ssrmeet_array_length = 1 -->
+<!-- comment_text=Textbook Cost: $0.<br>Prerequisite: ICS 141 with a grade of "C" or higher, or instructor consent.<br>Students will be contacted at their UH email address by their instructor prior to the first day of class. -->
+<td CLASS="default">Disc Math for Comp Sci II</td>
+<td CLASS="default">3</td>
+<td CLASS="default"><abbr title="Michael J Bauer"><span class="abbr" title="Michael J Bauer">M J Bauer</span></abbr></td>
+<td class="default" align="center">22</td>
+<td class="default" align="center">0</td>
+<td CLASS="default">TBA</td>
+<td CLASS="default">TBA</td>
+<td CLASS="default"><abbr title="Online Online Asynchronous"><span class="abbr" title="Online Online Asynchronous">ONLINE ASYNC</span></abbr></td>
+<td CLASS="default">08/21-12/15</td>
+</tr>
+<tr class="odd">
+<td colspan="13">
+Textbook Cost: $0.<br>Prerequisite: ICS 141 with a grade of "C" or higher, or instructor consent.<br>Students will be contacted at their UH email address by their instructor prior to the first day of class.
+</td>
+</tr>
+<!-- sect_rec: i 'LEE', term: '202410', ssbsect_crn: '55145', ssrmeet: '55145' -->
+<!-- pt. a -->
+<!-- pt. b -->
+<!-- pt. c -->
+<!-- pt. d -->
+<!-- pt. e -->
+<!-- pt. f -->
+<!-- pt. g -->
+<tr>
+<td CLASS="default">FQ,TXT0</td>
+<!-- pt. h -->
+<td CLASS="default"><a href="./avail.class?i=LEE&t=202410&c=55145">55145</a></td>
+<td nowrap="nowrap" CLASS="default">ICS 241</td>
+<td CLASS="default">0</td>
+<!-- ssrmeet_array_length = 0 -->
+<!-- ssrmeet_array_length = 1 -->
+<!-- comment_text=Textbook Cost: $0.<br>Prerequisite: ICS 141 with a grade of "C" or higher, or instructor consent.<br>Students will be contacted at their UH email address by their instructor prior to the first day of class. -->
+<td CLASS="default">Disc Math for Comp Sci II</td>
+<td CLASS="default">3</td>
+<td CLASS="default"><abbr title="Michael J Bauer"><span class="abbr" title="Michael J Bauer">M J Bauer</span></abbr></td>
+<td class="default" align="center">19</td>
+<td class="default" align="center">1</td>
+<td CLASS="default">TBA</td>
+<td CLASS="default">TBA</td>
+<td CLASS="default"><abbr title="Online Online Asynchronous"><span class="abbr" title="Online Online Asynchronous">ONLINE ASYNC</span></abbr></td>
+<td CLASS="default">08/21-12/15</td>
+</tr>
+<tr>
+<td colspan="13">
+Textbook Cost: $0.<br>Prerequisite: ICS 141 with a grade of "C" or higher, or instructor consent.<br>Students will be contacted at their UH email address by their instructor prior to the first day of class.
+</td>
+</tr>
+<!-- sect_rec: i 'LEE', term: '202410', ssbsect_crn: '54229', ssrmeet: '54229' -->
+<!-- pt. a -->
+<!-- pt. b -->
+<!-- pt. c -->
+<!-- pt. d -->
+<!-- pt. e -->
+<!-- pt. f -->
+<!-- pt. g -->
+<tr class="odd">
+<td CLASS="default">&nbsp;</td>
+<!-- pt. h -->
+<td CLASS="default"><a href="./avail.class?i=LEE&t=202410&c=54229">54229</a></td>
+<td nowrap="nowrap" CLASS="default">ICS 270</td>
+<td CLASS="default">0</td>
+<!-- ssrmeet_array_length = 0 -->
+<!-- ssrmeet_array_length = 1 -->
+<!-- comment_text=Prerequisite: ICS 111 and ICS 129 each with a grade of "C" or better, or instructor consent.<br>Students are required to check their UH email for course correspondence before the first day of instruction. Contact the instructor (ramosa@hawaii.edu) for more information. Include the course title in the SUBJECT line of the email.<br><br>This section will be participating in Leeward Community College Bookstore's program, IDAP.  For more information, please check the bookstore's textbook listing and IDAP FAQ page at www.bookstore.hawaii.edu/lcc. -->
+<td CLASS="default">Systems Analysis</td>
+<td CLASS="default">3</td>
+<td CLASS="default"><abbr title="Alejandro A Ramos"><span class="abbr" title="Alejandro A Ramos">A A Ramos</span></abbr></td>
+<td class="default" align="center">4</td>
+<td class="default" align="center">2</td>
+<td CLASS="default">W</td>
+<td nowrap="nowrap" CLASS="default">1200-<spacer />0115p</td>
+<td CLASS="default"><abbr title="Online Online Synchronous"><span class="abbr" title="Online Online Synchronous">ONLINE SYNC</span></abbr></td>
+<td CLASS="default">08/21-12/15</td>
+</tr>
+<tr class="odd">
+<td colspan="13">
+Prerequisite: ICS 111 and ICS 129 each with a grade of "C" or better, or instructor consent.<br>Students are required to check their UH email for course correspondence before the first day of instruction. Contact the instructor (ramosa@hawaii.edu) for more information. Include the course title in the SUBJECT line of the email.<br><br>This section will be participating in Leeward Community College Bookstore's program, IDAP.  For more information, please check the bookstore's textbook listing and IDAP FAQ page at www.bookstore.hawaii.edu/lcc.
+</td>
+</tr>
+<!-- sect_rec: i 'LEE', term: '202410', ssbsect_crn: '54805', ssrmeet: '54805' -->
+<!-- pt. a -->
+<!-- pt. b -->
+<!-- pt. c -->
+<!-- pt. d -->
+<!-- pt. e -->
+<!-- pt. f -->
+<!-- pt. g -->
+<tr>
+<td CLASS="default">&nbsp;</td>
+<!-- pt. h -->
+<td CLASS="default"><a href="./avail.class?i=LEE&t=202410&c=54805">54805</a></td>
+<td nowrap="nowrap" CLASS="default">ICS 270</td>
+<td CLASS="default">0</td>
+<!-- ssrmeet_array_length = 0 -->
+<!-- ssrmeet_array_length = 1 -->
+<!-- comment_text=Prerequisite: ICS 111 and ICS 129 each with a grade of "C" or better, or instructor consent.<br>Students are required to check their UH email for course correspondence before the first day of instruction. Contact the instructor (ramosa@hawaii.edu) for more information. Include the course title in the SUBJECT line of the email.<br><br>This section will be participating in Leeward Community College Bookstore's program, IDAP.  For more information, please check the bookstore's textbook listing and IDAP FAQ page at www.bookstore.hawaii.edu/lcc.. -->
+<td CLASS="default">Systems Analysis</td>
+<td CLASS="default">3</td>
+<td CLASS="default"><abbr title="Alejandro A Ramos"><span class="abbr" title="Alejandro A Ramos">A A Ramos</span></abbr></td>
+<td class="default" align="center">14</td>
+<td class="default" align="center">1</td>
+<td CLASS="default">TBA</td>
+<td CLASS="default">TBA</td>
+<td CLASS="default"><abbr title="Online Online Asynchronous"><span class="abbr" title="Online Online Asynchronous">ONLINE ASYNC</span></abbr></td>
+<td CLASS="default">08/21-12/15</td>
+</tr>
+<tr>
+<td colspan="13">
+Prerequisite: ICS 111 and ICS 129 each with a grade of "C" or better, or instructor consent.<br>Students are required to check their UH email for course correspondence before the first day of instruction. Contact the instructor (ramosa@hawaii.edu) for more information. Include the course title in the SUBJECT line of the email.<br><br>This section will be participating in Leeward Community College Bookstore's program, IDAP.  For more information, please check the bookstore's textbook listing and IDAP FAQ page at www.bookstore.hawaii.edu/lcc..
+</td>
+</tr>
+<!-- sect_rec: i 'LEE', term: '202410', ssbsect_crn: '55175', ssrmeet: '55175' -->
+<!-- pt. a -->
+<!-- pt. b -->
+<!-- pt. c -->
+<!-- pt. d -->
+<!-- pt. e -->
+<!-- pt. f -->
+<!-- pt. g -->
+<tr class="odd">
+<td CLASS="default">&nbsp;</td>
+<!-- pt. h -->
+<td CLASS="default"><a href="./avail.class?i=LEE&t=202410&c=55175">55175</a></td>
+<td nowrap="nowrap" CLASS="default">ICS 270</td>
+<td CLASS="default">0</td>
+<!-- ssrmeet_array_length = 0 -->
+<!-- ssrmeet_array_length = 1 -->
+<!-- comment_text=Prerequisite: ICS 111 and ICS 129 each with a grade of "C" or better, or instructor consent.<br>Students are required to check their UH email for course correspondence before the first day of instruction. Contact the instructor (ramosa@hawaii.edu) for more information. Include the course title in the SUBJECT line of the email.<br><br>This section will be participating in Leeward Community College Bookstore's program, IDAP.  For more information, please check the bookstore's textbook listing and IDAP FAQ page at www.bookstore.hawaii.edu/lcc.. -->
+<td CLASS="default">Systems Analysis</td>
+<td CLASS="default">3</td>
+<td CLASS="default"><abbr title="Alejandro A Ramos"><span class="abbr" title="Alejandro A Ramos">A A Ramos</span></abbr></td>
+<td class="default" align="center">11</td>
+<td class="default" align="center">9</td>
+<td CLASS="default">TBA</td>
+<td CLASS="default">TBA</td>
+<td CLASS="default"><abbr title="Online Online Asynchronous"><span class="abbr" title="Online Online Asynchronous">ONLINE ASYNC</span></abbr></td>
+<td CLASS="default">08/21-12/15</td>
+</tr>
+<tr class="odd">
+<td colspan="13">
+Prerequisite: ICS 111 and ICS 129 each with a grade of "C" or better, or instructor consent.<br>Students are required to check their UH email for course correspondence before the first day of instruction. Contact the instructor (ramosa@hawaii.edu) for more information. Include the course title in the SUBJECT line of the email.<br><br>This section will be participating in Leeward Community College Bookstore's program, IDAP.  For more information, please check the bookstore's textbook listing and IDAP FAQ page at www.bookstore.hawaii.edu/lcc..
+</td>
+</tr>
+<!-- sect_rec: i 'LEE', term: '202410', ssbsect_crn: '54340', ssrmeet: '54340' -->
+<!-- pt. a -->
+<!-- pt. b -->
+<!-- pt. c -->
+<!-- pt. d -->
+<!-- pt. e -->
+<!-- pt. f -->
+<!-- pt. g -->
+<tr>
+<td CLASS="default">TXT0</td>
+<!-- pt. h -->
+<td CLASS="default"><a href="./avail.class?i=LEE&t=202410&c=54340">54340</a></td>
+<td nowrap="nowrap" CLASS="default">ICS 281</td>
+<td CLASS="default">0</td>
+<!-- ssrmeet_array_length = 0 -->
+<!-- ssrmeet_array_length = 1 -->
+<!-- comment_text=Textbook Cost: $0.<br>Prerequisite: ICS 170, ICS 171 and ICS 231(formerly 240) each with a grade of "C" or higher, or instructor consent.<br>Recommended preparation: ICS 184 & Be able to use the Linux Operating System.<br><br>Students will be contacted at their UH email address by their instructor prior to the first day of class. -->
+<td CLASS="default">Ethical Hacking</td>
+<td CLASS="default">3</td>
+<td CLASS="default"><abbr title="Petersen W Gross"><span class="abbr" title="Petersen W Gross">P W Gross</span></abbr></td>
+<td class="default" align="center">18</td>
+<td class="default" align="center">2</td>
+<td CLASS="default">TBA</td>
+<td CLASS="default">TBA</td>
+<td CLASS="default"><abbr title="Online Online Asynchronous"><span class="abbr" title="Online Online Asynchronous">ONLINE ASYNC</span></abbr></td>
+<td CLASS="default">08/21-12/15</td>
+</tr>
+<tr>
+<td colspan="13">
+Textbook Cost: $0.<br>Prerequisite: ICS 170, ICS 171 and ICS 231(formerly 240) each with a grade of "C" or higher, or instructor consent.<br>Recommended preparation: ICS 184 & Be able to use the Linux Operating System.<br><br>Students will be contacted at their UH email address by their instructor prior to the first day of class.
+</td>
+</tr>
+<!-- sect_rec: i 'LEE', term: '202410', ssbsect_crn: '54341', ssrmeet: '54341' -->
+<!-- pt. a -->
+<!-- pt. b -->
+<!-- pt. c -->
+<!-- pt. d -->
+<!-- pt. e -->
+<!-- pt. f -->
+<!-- pt. g -->
+<tr class="odd">
+<td CLASS="default">TXT0</td>
+<!-- pt. h -->
+<td CLASS="default"><a href="./avail.class?i=LEE&t=202410&c=54341">54341</a></td>
+<td nowrap="nowrap" CLASS="default">ICS 282</td>
+<td CLASS="default">0</td>
+<!-- ssrmeet_array_length = 0 -->
+<!-- ssrmeet_array_length = 1 -->
+<!-- comment_text=Textbook Cost: $0.<br>Prerequisite: ICS 170, ICS 171 and ICS 231 each with a grade of "C" or higher, or instructor consent.<br>Recommended preparation: ICS 184.<br><br>Students will be contacted at their UH email address by their instructor prior to the first day of class. -->
+<td CLASS="default">Computer Forensics</td>
+<td CLASS="default">3</td>
+<td CLASS="default"><abbr title="Petersen W Gross"><span class="abbr" title="Petersen W Gross">P W Gross</span></abbr></td>
+<td class="default" align="center">4</td>
+<td class="default" align="center">6</td>
+<td CLASS="default">T</td>
+<td nowrap="nowrap" CLASS="default">1030-<spacer />1145a</td>
+<td CLASS="default"><abbr title="Biological Science Room 107"><span class="abbr" title="Biological Science Room 107">BS 107</span></abbr></td>
+<td CLASS="default">08/21-12/15</td>
+</tr>
+<tr class="odd">
+<td colspan="13">
+Textbook Cost: $0.<br>Prerequisite: ICS 170, ICS 171 and ICS 231 each with a grade of "C" or higher, or instructor consent.<br>Recommended preparation: ICS 184.<br><br>Students will be contacted at their UH email address by their instructor prior to the first day of class.
+</td>
+</tr>
+<!-- sect_rec: i 'LEE', term: '202410', ssbsect_crn: '54679', ssrmeet: '54679' -->
+<!-- pt. a -->
+<!-- pt. b -->
+<!-- pt. c -->
+<!-- pt. d -->
+<!-- pt. e -->
+<!-- pt. f -->
+<!-- pt. g -->
+<tr>
+<td CLASS="default">TXT0</td>
+<!-- pt. h -->
+<td CLASS="default"><a href="./avail.class?i=LEE&t=202410&c=54679">54679</a></td>
+<td nowrap="nowrap" CLASS="default">ICS 282</td>
+<td CLASS="default">0</td>
+<!-- ssrmeet_array_length = 0 -->
+<!-- ssrmeet_array_length = 1 -->
+<!-- comment_text=Textbook Cost: $0.<br>Prerequisite: ICS 170, ICS 171 and ICS 231 each with a grade of "C" or higher, or instructor consent.<br>Recommended preparation: ICS 184.<br><br>Students will be contacted at their UH email address by their instructor prior to the first day of class. -->
+<td CLASS="default">Computer Forensics</td>
+<td CLASS="default">3</td>
+<td CLASS="default"><abbr title="Petersen W Gross"><span class="abbr" title="Petersen W Gross">P W Gross</span></abbr></td>
+<td class="default" align="center">10</td>
+<td class="default" align="center">5</td>
+<td CLASS="default">TBA</td>
+<td CLASS="default">TBA</td>
+<td CLASS="default"><abbr title="Online Online Asynchronous"><span class="abbr" title="Online Online Asynchronous">ONLINE ASYNC</span></abbr></td>
+<td CLASS="default">08/21-12/15</td>
+</tr>
+<tr>
+<td colspan="13">
+Textbook Cost: $0.<br>Prerequisite: ICS 170, ICS 171 and ICS 231 each with a grade of "C" or higher, or instructor consent.<br>Recommended preparation: ICS 184.<br><br>Students will be contacted at their UH email address by their instructor prior to the first day of class.
+</td>
+</tr>
+</table>
+<SPAN class="infotext"> <hr SIZE="1" WIDTH="100%">
+<table class="legend" cellpadding="0" cellspacing="0" border="0" width="100%">
+   <tr>
+      <td>
+      <table cellpadding="0" cellspacing="0" border="0" width="100%">
+         <tr>
+            <th colspan="6">General Education Requirements:</th>
+         </tr>
+         <tr>
+            <td><b>FGA</b></td>
+            <td width="33%">= Foundation GMP-A</td>
+            <td><b>DA</b></td>
+            <td width="33%">= Diversification-Arts</td>
+            <td><b>DP</b></td>
+            <td width="33%">= Diversification-Physical Science</td>
+         </tr>
+         <tr>
+            <td><b>FGB</b></td>
+            <td>= Foundation GMP-B</td>
+            <td><b>DB</b></td>
+            <td>= Diversification-Biological Science</td>
+             <td><b>DS</b></td>
+             <td>= Diversification-Social Science</td>
+         </tr>
+         <tr>
+            <td><b>FGC</b></td>
+            <td>= Foundation GMP-C</td>
+            <td><b>DH</b></td>
+            <td>= Diversification-Humanities</td>
+            <td><b>DY</b></td>
+            <td>= Diversification-Laboratory (science)</td>
+         </tr>
+         <tr>
+            <td><b>FQ</b></td>
+            <td>= Foundation Quantitative Reasoning</td>
+            <td><b>DL</b></td>
+            <td>= Diversification-Literatures</td>
+
+         </tr>
+         <tr>
+            <td><b>FS</b></td>
+            <td>= Foundation Symbolic Reasoning</td>
+
+         </tr>
+         <tr>
+            <td><b>FW</b></td>
+            <td>= Foundation Written Communication</td>
+      </table>
+     </td>
+  </tr>
+</table>
+</p> <hr SIZE="1" WIDTH="100%">
+<table class="legend" cellpadding="0" cellspacing="0" border="0" width="100%">
+   <tr>
+      <td>
+      <table cellpadding="0" cellspacing="0" border="0" width="100%">
+         <tr>
+            <th colspan="6">Focus Requirements:</th>
+         </tr>
+         <tr>
+            <td><b>ETH</b></td>
+            <td width="33%">= Contemporary Ethical Issues</td>
+            <td><b>HAP</b></td>
+            <td width="33%">= Hawaiian, Asian, and Pacific Issues</td>
+            <td><b>WI</b></td>
+            <td width="33%">= Writing Intensive</td>
+        <tr>
+            <td><b>OC</b></td>
+            <td>= Oral Communication</td>
+
+      </table>
+     </td>
+  </tr>
+</table>
+</p> <p>
+<hr SIZE="1" WIDTH="100%">
+<table class="legend" cellpadding="0" cellspacing="0" border="0" width="60%">
+   <tr>
+      <td>
+      <table cellpadding="0" cellspacing="0" border="0" width="100%"></tr>
+         <tr>
+            <th colspan="6">Special Designations:</th></tr><tr>
+            <td><b>ONLD</b></td>
+            <td width="25%">= Fully Online Program</td>
+            <td><b>SF</b></td>
+            <td width="25%">= Sustainability Focused</td>
+            <td><b>OI</b></td>
+            <td>= Off-Island</td>
+            <td><b>C19</b></td>
+            <td>= Online due to COVID-19</td>
+           </tr>
+
+            <td><b>ONL5</b></td>
+            <td>= 5-Week Online Program</td>
+            <td><b>TXT0</b></td>
+            <td>= Textbook Cost $0</td>
+            <td><b>OS</b></td>
+            <td width="25%">= Off-Site</td>
+            <td><b>EC</b></td>
+            <td width="25%">= Early College</td>
+         </tr>
+     </table></table>
+</p>
+
+<p><strong><a href="https://docs.google.com/spreadsheets/d/1Q3cTFTom_C7JJpUBRFrIQawVmOvaPdr-K9kmTakoPi4/edit?usp=sharing" style="color:red;" target="_blank">LINK</a> to List of Classes by Requirement Designation.<strong></p>
+   </td>
+</tr>
+
+</table>
+  <p>
+<hr SIZE="1" WIDTH="100%">
+<table class="legend" cellpadding="0" cellspacing="0" border="0" width="50%">
+   <tr>
+      <td>
+      <table cellpadding="0" cellspacing="0" border="0" width="100%"></tr>
+         <tr>
+            <th colspan="6">Class Meeting Days:</th></tr><tr>
+            <td><b>M</b></td>
+            <td width="33%">= Monday</td>
+            <td><b>R</b></td>
+            <td width="33%">= Thursday</td>
+            <td><b>U</b></td>
+            <td>= Sunday</td></tr>
+
+            <td><b>T</b></td>
+            <td>= Tuesday</td>
+            <td><b>F</b></td>
+            <td>= Friday</td>
+             <td><b>TBA</b></td>
+             <td>= To Be Announced/Arranged</td>
+         </tr>
+
+        <tr>    <td><b>W</b></td>
+            <td>= Wednesday</td>
+             <td><b>S</b></td><td width="33%">= Saturday</td></tr>
+     </table></table>
+</p>
+
+<td>
+     <table class="legend" cellpadding="0" cellspacing="0" border="0" width="50%">
+         <tr>
+            <th colspan="4">Class Meeting Rooms:</th>
+         </tr>
+         <tr>
+         <td><b>ONLINE ASYNC</b></td>
+      <td width="100%">= Completed online, NO scheduled days/times</td></tr>
+<td><b>ONLINE SYNC</b></td>
+      <td width="100%">= Completed online at scheduled days/times</td>
+
+       </tr>
+     </table>
+   </td>
+</tr></SPAN>
+<div class="footer">
+<hr SIZE="1" WIDTH="100%">
+<p class="copyright">&copy;2023 <a HREF="http://www.hawaii.edu/">University of Hawaii</a></p>
+<p class="updated">Updated: 09/18/2023 12:46:17 AM HST</p>
+</div>
+</body></html>
